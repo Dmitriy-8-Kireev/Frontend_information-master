@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Как работать с CSS-препроцессорами и БЭМ</title>
+  <meta name="description" content="Список рекомендаций по неусложнению жизни себе и другим участникам проекта по вёрстке.">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Mono&subset=latin,cyrillic">
+
+</head>
+
+<body>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Как работать с CSS-препроцессорами и БЭМ</h1>
+      <p class="lead">Список рекомендаций по неусложнению жизни себе и другим участникам проекта по вёрстке.</p>
+    </div>
+  </header>
+
+
+
+  <div class="heading" id="toc">
+    <h2>Содержание</h2>
+  </div>
+
+  <div class="section toc">
+    <div class="col">
+      <h4><a href="#bem">БЭМ</a></h4>
+      <ul>
+        <li><a href="#bem-cool">Зачем</a></li>
+        <li><a href="#bem-block">Блок — это самостоятельная часть страницы</a></li>
+        <li><a href="#bem-block-inside">Блоки можно и&nbsp;нужно вкладывать друг в&nbsp;друга</a></li>
+        <li><a href="#bem-elem">Элемент — часть БЭМ-блока</a></li>
+        <li><a href="#bem-elem-in">Элемент вне&nbsp;его&nbsp;блока</a></li>
+        <li><a href="#bem-no-elem">Элементов может не&nbsp;быть</a></li>
+        <li><a href="#bem-block-elem">Как отличить БЭМ-блок и БЭМ-элемент</a></li>
+        <li><a href="#bem-mod">Модификатор — дополнительный класс для&nbsp;смены оформления или&nbsp;поведения</a></li>
+        <li><a href="#bem-mod-mariage">Модификатор нельзя использовать самостоятельно</a></li>
+        <li><a href="#mix">Миксование — наличие класса БЭМ-блока и класса БЭМ-элемента у одного тега</a></li>
+        <li><a href="#bem-files">Один БЭМ-блок = один файл</a></li>
+        <li><a href="#bem-not-dom">БЭМ-дерево плоское, в отличие от DOM</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h4><a href="#pre-css">Sass, LESS, stylus, PostCSS...</a></h4>
+      <ul>
+        <li><a href="#files">Файловая организация</a></li>
+        <li><a href="#import">@import</a></li>
+        <li><a href="#nested">Вложенные селекторы</a></li>
+        <li><a href="#media">@media</a></li>
+        <li><a href="#amp">Амперсанд</a></li>
+        <li><a href="#priority">Очередность написания вложенных селекторов</a></li>
+        <li><a href="#vars">Переменные</a></li>
+        <li><a href="#mixins">Примеси</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="col">
+      <p>Если у вас есть что дополнить или вы хотите принять участие в разработке этих соглашений, пожалуйста, <a href="https://github.com/nicothin/idiomatic-pre-CSS/issues/new">создайте issue на&nbsp;GitHub</a> или форкните <a href="https://github.com/nicothin/idiomatic-pre-CSS/">репозиторий</a> и&nbsp;пришлите pull&nbsp;request.</p>
+    </div>
+    <div class="col">
+      <p>Все нижеследующие соглашения выработаны автором на&nbsp;основании опыта веб-разработки с&nbsp;2000&nbsp;г., призваны максимально облегчить и&nbsp;ускорить чтение, понимание и&nbsp;модификацию вёрстки.</p>
+    </div>
+  </div>
+
+  <div class="section" id="golden-rule">
+    <div class="col">
+      <h2>Золотые правила</h2>
+      <p>Cоблюдайте предложенные здесь или свои собственные соглашения.</p>
+      <p>Есть ситуации, когда правила нужно нарушить. Причина должна быть действительно серьезной, не&nbsp;предположительной.</p>
+    </div>
+    <div class="col">
+      <ol>
+        <li>Весь код проекта должен выглядеть так, словно он написан одним человеком, вне&nbsp;зависимости от&nbsp;количества разработчиков.</li>
+        <li>Делать нужно настолько просто, насколько возможно. Но&nbsp;не&nbsp;проще.</li>
+        <li>Любой инструмент при бездумном использовании может выстрелить в&nbsp;ногу.</li>
+      </ol>
+    </div>
+  </div>
+
+
+
+  <div class="heading" id="bem">
+    <h2>БЭМ (как метод именования селекторов)</h2>
+  </div>
+
+  <div class="section" id="bem-cool">
+    <div class="col">
+      <h3>Зачем</h3>
+      <ul>
+        <li>Самодокументируемость.</li>
+        <li>Имитация пространства имён (простота и безопасность модификации).</li>
+        <li>Отсутствие зависимости от DOM-структуры.</li>
+        <li>Проектное реиспользование блоков.</li>
+        <li>Кросспроектное реиспользование блоков.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <p>Само понятие БЭМ — не только метод именования селекторов, но парадигма восприятия проекта как набора сущностей (блоки, элементы, модификаторы). Полный стек БЭМ подразумевает двойную шаблонизацию и имеет относительно высокий порог входа. Используйте БЭМ хотя бы как способ именования селекторов.</p>
+    </div>
+  </div>
+
+  <div class="section" id="bem-block">
+    <div class="col">
+      <h3>Блок — это самостоятельная часть страницы</h3>
+      <ul>
+        <li>Название класса должно быть простым и коротким.</li>
+        <li>Название класса должно отвечать на вопрос «Что это?»</li>
+        <li>Не используйте сокращения кроме <a href="https://github.com/nicothin/idiomatic-pre-CSS/blob/gh-pages/words_and_abbreviations.md">наиболее частых</a></li>
+        <li>Название <strong>не должно</strong> отвечать на вопрос «Как выглядит?»</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;!-- .product — БЭМ-блок --&gt;</span>
+<span class="code__line">&lt;div class=&quot;product&quot;&gt;</span>
+<span class="code__line">  ...</span>
+<span class="code__line">&lt;/div&gt;</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="bem-block-inside">
+    <div class="col">
+      <h3>Блоки можно и&nbsp;нужно вкладывать друг в&nbsp;друга</h3>
+      <ul>
+        <li>Нет ограничений на&nbsp;вложения блоков, помимо здравого смысла.</li>
+        <li>Никакой дополнительной специфики вложенные блоки не имеют.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;!-- .page-header — БЭМ-блок --&gt;</span>
+<span class="code__line">&lt;div class=&quot;page-header&quot;&gt;</span>
+<span class="code__line"> </span>
+<span class="code__line">  &lt;!-- .logo — вложенный БЭМ-блок --&gt;</span>
+<span class="code__line">  &lt;a class=&quot;logo&quot;&gt;...&lt;/a&gt;</span>
+<span class="code__line"> </span>
+<span class="code__line">&lt;/div&gt;</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="bem-elem">
+    <div class="col">
+      <h3>Элемент — часть БЭМ-блока</h3>
+      <ul>
+        <li>Название класса формируется из названия блока с добавлением <code>__</code> и названия элемента.</li>
+        <li>Название класса должно быть простым и коротким.</li>
+        <li>Название класса должно отвечать на вопрос «Что это?»</li>
+        <li>Избегайте сокращений, кроме <a href="https://github.com/nicothin/idiomatic-pre-CSS/blob/gh-pages/words_and_abbreviations.md">наиболее частых</a>.</li>
+        <li>Название <strong>не должно</strong> отвечать на вопрос «Как выглядит?»</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;div class=&quot;product&quot;&gt;</span>
+<span class="code__line"> </span>
+<span class="code__line">  &lt;!-- product__image — БЭМ-элемент блока product --&gt;</span>
+<span class="code__line">  &lt;img class=&quot;product__image&quot; src=&quot;...&quot; alt=&quot;...&quot;&gt;</span>
+<span class="code__line"> </span>
+<span class="code__line">  &lt;!-- product__description — БЭМ-элемент блока product --&gt;</span>
+<span class="code__line">  &lt;p class=&quot;product__description&quot;&gt;...&lt;/p&gt;</span>
+<span class="code__line"> </span>
+<span class="code__line">  &lt;!-- product__more-link — БЭМ-элемент блока product --&gt;</span>
+<span class="code__line">  &lt;a class=&quot;product__more-link&quot; href=&quot;&quot;&gt;...&lt;/a&gt;</span>
+<span class="code__line">&lt;/div&gt;</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="bem-elem-in">
+    <div class="col">
+      <h3>Элемент можно использовать вне&nbsp;его&nbsp;блока только в&nbsp;исключительных случаях</h3>
+      <p>Элемент — <strong>часть блока</strong>, но, поскольку, БЭМ-дерево независимо от&nbsp;HTML-дерева, элемент <a href="https://en.bem.info/forum/43/">можно использовать</a> и&nbsp;вне его&nbsp;блока <b>в&nbsp;некоторых исключительных условиях</b> (сам блок должен быть на странице).</p>
+      <p>Пример: расположение попапа-элемента не&nbsp;внутри блока-родителя, а&nbsp;в&nbsp;самом конце DOM (дабы показывать попап независимо от&nbsp;ограничения видимости родителей).</p>
+      <p>Если Вы используете БЭМ только как&nbsp;метод именования селекторов, при&nbsp;написании разметки никогда не&nbsp;используйте элемент вне&nbsp;блока.</p>
+    </div>
+    <div class="col">
+      <h3>Почему нельзя просто так располагать элемент вне&nbsp;блока:</h3>
+      <ul>
+        <li>теряется логика разметки,</li>
+        <li>сложно стилизовать элементы, которые могут оказаться где&nbsp;угодно (float, абс. позиционирование и&nbsp;некоторые другие стили такого элемента могут «сломать» верстку).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section" id="bem-no-elem">
+    <div class="col">
+      <h3>Элементов может не&nbsp;быть</h3>
+      <p>Не у всех блоков должны быть элементы: кнопка — всегда БЭМ-блок, но БЭМ-элементы у неё внутри встречаются относительно редко.</p>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;!-- Нет ошибки: блок без элементов --&gt;</span>
+<span class="code__line">&lt;a class=&quot;btn&quot; href=&quot;&quot;&gt;Скачать&lt;/a&gt;</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="bem-block-elem">
+    <div class="col">
+      <h3>Как отличить БЭМ-блок и БЭМ-элемент</h3>
+      <p>Просто задайте себе вопрос: «Эта сущность может потребоваться мне отдельно, сама по себе? Или она нужна только внутри её родителя?» Если нужна отдельно — это БЭМ-блок, если мыслима только внутри родителя — это БЭМ-элемент.</p>
+      <p>В действительно сомнительных случаях делайте выбор в пользу БЭМ-блока.</p>
+      <p>Не забывайте о миксовании (возможности иметь на одном теге и класс уровня БЭМ-элемента какого-то родительского блока, и свой класс уровня БЭМ-блока).</p>
+      <p>На всех проектах (кроме совсем уж крошечных или имеющих гарантировано нулевую возможность модификации) есть фрагменты дизайна, которые мудро всегда делать БЭМ-блоками по причине высокой вероятности повторения.</p>
+    </div>
+    <div class="col">
+      <h3>Некоторые фрагменты дизайна — всегда БЭМ-блоки</h3>
+      <ul>
+        <li>Кнопка (любые кнопки)</li>
+        <li>Блоки внутри форм (блок для текстового поля, блок для радиокнопки и т.п.)</li>
+        <li>Пагинация</li>
+        <li>Табы</li>
+        <li>Лейблы (метки)</li>
+        <li>Социальные ссылки</li>
+        <li>«Лайк» со счётчиком</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section" id="bem-mod">
+    <div class="col">
+      <h3>Модификатор — дополнительный класс для&nbsp;смены оформления или&nbsp;поведения</h3>
+      <ul>
+        <li>Название класса формируется из названия блока/элемента с&nbsp;добавлением <code>--</code> и&nbsp;названия модификатора.</li>
+        <li>Название должно быть простым и коротким.</li>
+        <li>Название класса может отвечать на вопросы «Что&nbsp;это?», «Что&nbsp;меняется?», «Чем отличается от&nbsp;прочих?» </li>
+        <li>Избегайте сокращений, кроме <a href="https://github.com/nicothin/idiomatic-pre-CSS/blob/gh-pages/words_and_abbreviations.md">наиболее частых</a>.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;!-- .product--large — БЭМ-модификатор --&gt;</span>
+<span class="code__line">&lt;div class=&quot;product  product--large&quot;&gt;</span>
+<span class="code__line">  ...</span>
+<span class="code__line">&lt;/div&gt;</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="bem-mod-mariage">
+    <div class="col">
+      <h3>Модификатор нельзя использовать самостоятельно</h3>
+      <p>Класс модификатор никогда не&nbsp;должен использоваться самостоятельно, но&nbsp;всегда только с&nbsp;тем классом, который он&nbsp;модифицирует.</p>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;!-- Нет ошибки: модификатор сопутствует модифицируемому классу --&gt;</span>
+<span class="code__line">&lt;div class=&quot;product  product--large&quot;&gt;</span>
+<span class="code__line">  ...</span>
+<span class="code__line">&lt;/div&gt;</span>
+<span class="code__line"> </span>
+<span class="code__line">&lt;!--&nbsp;ОШИБКА: модификатор без класса, который он модифицирует --&gt;</span>
+<span class="code__line">&lt;div class=&quot;product--sale&quot;&gt;</span>
+<span class="code__line">  ...</span>
+<span class="code__line">&lt;/div&gt;</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="mix">
+    <div class="col">
+      <h3>Миксование — комбинирование на одном теге классов БЭМ-блока и БЭМ-элемента</h3>
+      <p>Комбинация возможна в любом сочетании: БЭМ-блок + БЭМ-элемент, БЭМ-блок + БЭМ-блок, БЭМ-элемент + БЭМ-элемент. Этот подход позволяет:</p>
+      <ul>
+        <li>Добавить некоторые стилевые свойства, необходимые только в месте добавления (использование модификатора нерационально). Пример: для <code>.btn</code> внутри <code>.page-header</code> необходим внешний левый отступ в 37 пикс. Можно дописать для тега с <code>.btn</code> дополнительный класс <code>.page-header__btn</code> и дать отступ с помощью этого селектора. <b>Это нормальная практика, её можно спокойно использовать</b>.</li>
+        <li>Объединить стилизацию 2-х и более блоков. Пример: для <code>.article</code> и для <code>.page-footer__section</code> шрифтовые свойства одинаковы. Можно вынести определение шрифтовых свойств в новый блок <code>.text</code> и дописать этот класс на <code>.article</code> и <code>.page-footer__section</code>. <b>Этот подход излишне связывет части страницы</b> (напоминает OOCSS и класс-хелпер), не делайте так.</li>
+        <li>Обойтись без тега-обёртки с добавляемым селектором. Пример: страница каталога, 7+ товаров в потоке, каждый товар — <code>.product</code>, но каждому элементу потока нужны стилевые свойства ячеек модульной сетки (по которой выстроен потоковый вывод). Можно добавить для <code>.product</code> класс ячейки модульной сетки, что бы не делать обертку с этим классом. Это чревато конфликтом отступов/размеров, не смешивайте на одном теге классы обёртки и содержимого.</li>
+      </ul>
+      <p>Классы БЭМ-блоков следует писать первыми.</p>
+      <p>Миксование несколько ухудшает восприятие кода и увеличивает вероятность ошибки смешения стилей, при которой вы пишите стилевое правило в контексте не того селектора, где оно реально нужно.</p>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;div class=&quot;page-header&quot;&gt;</span>
+<span class="code__line">  &lt;div class=&quot;page-header__nav-wrap&quot;&gt;...&lt;/div&gt;</span>
+<span class="code__line">  &lt;a class=&quot;btn &nbsp;page-header__btn&quot; href="/buy"&gt;...&lt;/a&gt;</span>
+<span class="code__line">&lt;/div&gt;</span></code></pre>
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;div class=&quot;slider&quot;&gt;</span>
+<span class="code__line">  &lt;div class=&quot;promo  slider__inner&quot;&gt;</span>
+<span class="code__line">    &lt;div class=&quot;promo__item  slider__item&quot;&gt;</span>
+<span class="code__line">      ...</span>
+<span class="code__line">    &lt;/div&gt;</span>
+<span class="code__line">  &lt;/div&gt;</span>
+<span class="code__line">&lt;/div&gt;</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="bem-files">
+    <div class="col">
+      <h3>Один БЭМ-блок = один файл</h3>
+      <p>В файловой системе при работе с CSS-препроцессорами каждый БЭМ-блок должен быть описан в своём отдельном файле.</p>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-less"><span class="code__line">// файл slider.less</span>
+<span class="code__line">.slider {</span>
+<span class="code__line">  ...</span>
+<span class="code__line">}</span>
+<span class="code__line"> </span>
+<span class="code__line">// файл promo.less</span>
+<span class="code__line">.promo {</span>
+<span class="code__line">  ...</span>
+<span class="code__line">}</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="bem-not-dom">
+    <div class="col">
+      <h3>БЭМ-дерево плоское, в отличие от DOM</h3>
+      <p>В классах БЭМ-элементов нельзя прописывать иерархию (два и более сегмента <code>__</code> недопустимы).</p>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-html"><span class="code__line">&lt;div class=&quot;promo&quot;&gt;</span>
+<span class="code__line">  &lt;div class=&quot;promo__description&quot;&gt;</span>
+<span class="code__line">    &lt;!-- Нет ошибки: вложенный элемент не имеет особенностей --&gt;</span>
+<span class="code__line">    &lt;a class=&quot;promo__link&quot; href=&quot;&quot;&gt;...&lt;/a&gt;</span>
+<span class="code__line">  &lt;/div&gt;</span>
+<span class="code__line">&lt;/div&gt;</span>
+<span class="code__line"> </span>
+<span class="code__line">&lt;div class=&quot;promo&quot;&gt;</span>
+<span class="code__line">  &lt;div class=&quot;promo__description&quot;&gt;</span>
+<span class="code__line">    &lt;!--ОШИБКА: попытка прописать иерархию --&gt;</span>
+<span class="code__line">    &lt;a class=&quot;promo__description__link&quot; href=&quot;&quot;&gt;...&lt;/a&gt;</span>
+<span class="code__line">  &lt;/div&gt;</span>
+<span class="code__line">&lt;/div&gt;</span></code></pre>
+    </div>
+  </div>
+
+
+
+  <div class="heading" id="pre-css">
+    <h2>Sass, LESS, Stylus, PostCSS...</h2>
+  </div>
+
+  <div class="section" id="files">
+    <div class="col">
+      <h3>Файловая организация</h3>
+      <ul>
+        <li>Один БЭМ-блок = один препроцессорный файл. Всегда.</li>
+        <li>Файл со стилизацией БЭМ-блока должен называться так же, как сам блок.</li>
+        <li>Используйте «генераторы блоков» (<a href="https://gist.github.com/nicothin/1ba505f7cdfbe969600afcad6d9f1d33">простой пример</a>, <a href="https://github.com/nicothin/NTH-start-project/blob/master/createBlock.js">пример посложнее</a>) для ускорения работы.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-bash"><span class="code__line"># Один из вариантов файловой организации (удобно должно быть ВАМ)</span>
+<span class="code__line">src/                   # папка с исходниками, из которых собирается проект</span>
+<span class="code__line">  blocks/              # папка с БЭМ-блоками</span>
+<span class="code__line">    page-header/       # папка БЭМ-блока</span>
+<span class="code__line">      img/             # картинки, используемые в БЭМ-блоке</span>
+<span class="code__line">      page-header.less # стилизация БЭМ-блока</span>
+<span class="code__line">      page-header.html # разметка БЭМ-блока (не обязательно)</span>
+<span class="code__line">      page-header.js   # доп. интерактив БЭМ-блока (не обязательно)</span>
+<span class="code__line">    page-footer/       # папка БЭМ-блока</span>
+<span class="code__line">    logo/              # папка БЭМ-блока</span>
+<span class="code__line">    ...</span>
+<span class="code__line">  less/</span>
+<span class="code__line">    mixins/            # папка с примесями</span>
+<span class="code__line">    style.less         # диспетчер подключений (только импорты)</span>
+<span class="code__line">    variables.less     # переменные проекта</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="import">
+    <div class="col">
+      <h3>@import</h3>
+      <ul>
+        <li>Компилируйте один файл (диспетчер подключений), в котором подключаются все прочие.</li>
+        <li>Импортируйте файлы только в диспетчере подключений (допустимо импортировать примеси внутри отдельного файла, например, <code>mixins.less</code>).</li>
+        <li>Не пишите никаких селекторов в диспетчере подключений.</li>
+        <li>Не импортируйте файлы внутри медиа-условий.</li>
+        <li>Один БЭМ-блок = один препроцессорный файл. <strong>Всегда</strong>.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-less"><span class="code__line">// style.less</span>
+<span class="code__line">@import 'variables.less';           // правильно</span>
+<span class="code__line">@import 'mixins.less';              // правильно</span>
+<span class="code__line"> </span>
+<span class="code__line">@import '../blocks/page-header/page-header.less';   // правильно</span>
+<span class="code__line">@import '../blocks/page-footer/page-footer.less';   // правильно</span>
+<span class="code__line"> </span>
+<span class="code__line">@import 'responsive-imports.less';  // неправильно, если внутри этого файла есть импорты</span>
+<span class="code__line">@import 'top-part-page.less';       // неправильно, если нет такого БЭМ-блока</span>
+<span class="code__line"> </span>
+<span class="code__line">// неправильно, импорт внутри @media</span>
+<span class="code__line">@media screen and (min-width: @laptop-min) {</span>
+<span class="code__line">  @import '../blocks/promo/promo.less';</span>
+<span class="code__line">}</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="nested">
+    <div class="col">
+      <h3>Вложения селекторов</h3>
+      <ul>
+        <li>Чем меньше уровней вложенности, тем лучше.</li>
+        <li>Не допускайте более 3-х уровней вложенности (псевдоэлемены, псевдоселекторы и медиа-условия не считаются увеличивающими вложенность).</li>
+        <li>Осторожно используйте жесткое наследование.</li>
+        <li>Всегда оставляйте пустую строку перед вложенным селектором или <code>@media</code>.</li>
+        <li>Всегда делайте дополнительный отступ для вложений.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-less"><span class="code__line">.promo {</span>
+<span class="code__line">  display: block;</span>
+<span class="code__line">                    // пустая строка для улучшения читаемости</span>
+<span class="code__line">  a {               // первый уровень вложенности</span>
+<span class="code__line">    color: #ff0000;</span>
+<span class="code__line">                    // пустая строка для улучшения читаемости</span>
+<span class="code__line">    &:hover {       // не увеличивает уровень вложенности</span>
+<span class="code__line">      ...</span>
+<span class="code__line">    }</span>
+<span class="code__line">  }</span>
+<span class="code__line">}</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="media">
+    <div class="col">
+      <h3>@media</h3>
+      <ul>
+        <li>Вкладывайте <code>@media</code> в селекторы, а не наоборот.</li>
+        <li>Не вкладывайте <code>@media</code> друг в друга.</li>
+        <li>Предпочтите путь mobile-first, избегайте указания <code>@media</code>-условия max-width в пользу min-width.</li>
+        <li>Пишите <code>@media</code> рядом, не пишите селекторы между ними.</li>
+        <li>Пишите условия для <code>@media</code> там, где используете <code>@media</code>, не пишите условия в переменных.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-less"><span class="code__line">.promo {</span>
+<span class="code__line">  display: block;</span>
+<span class="code__line">  </span>
+<span class="code__line">  // Хорошо: условие очевидно, в переменной только ширина</span>
+<span class="code__line">  @media (min-width: @screen-md) {</span>
+<span class="code__line">    display: none;</span>
+<span class="code__line">  }</span>
+<span class="code__line">  </span>
+<span class="code__line">  @media (min-width: @screen-lg) {</span>
+<span class="code__line">    display: block;</span>
+<span class="code__line">  }</span>
+<span class="code__line"> </span>
+<span class="code__line">  // Плохо: условие целиком вынесено в переменную (неочевидность)</span>
+<span class="code__line">  @media (@mobile-width) {</span>
+<span class="code__line">    display: block;</span>
+<span class="code__line">  }</span>
+<span class="code__line">}</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="amp">
+    <div class="col">
+      <h3>Амперсанд</h3>
+      <ul>
+        <li>Используйте амперсанд только перед:
+          <ul>
+            <li>разделителем БЭМ-элемента,</li>
+            <li>разделителем БЭМ-модификатора,</li>
+            <li>псевдоэлементом или псевдоселектором.</li>
+          </ul>
+        </li>
+        <li><strong>Никогда</strong> не используйте амперсанд в&nbsp;местах разделения словосочетаний имён блоков, элементов или модификаторов (см. пример).</li>
+        <li><strong>Никогда</strong> не повторяйте написанный с амперсандом селектор внутри одного контекста.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-less"><span class="code__line">.promo {</span>
+<span class="code__line">  </span>
+<span class="code__line">  // Правильно: амперсанд перед псевдоклассом</span>
+<span class="code__line">  &:hover { ... }</span>
+<span class="code__line">  </span>
+<span class="code__line">  // Правильно: амперсанд перед разделителем элемента</span>
+<span class="code__line">  &__item {</span>
+<span class="code__line">  </span>
+<span class="code__line">    // НЕПРАВИЛЬНО: амперсанд в месте разделения словосочетания в названии элемента</span>
+<span class="code__line">    &-link { ... }</span>
+<span class="code__line">  }</span>
+<span class="code__line">  </span>
+<span class="code__line">  // НЕПРАВИЛЬНО: амперсанд в месте разделения словосочетания в названии блока</span>
+<span class="code__line">  &-shover { ... }</span>
+<span class="code__line">  </span>
+<span class="code__line">  // Правильно: модификаторы нужно писать под элементами</span>
+<span class="code__line">  &--large { ... }</span>
+<span class="code__line">  </span>
+<span class="code__line">}</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="priority">
+    <div class="col">
+      <h3>Очередность написания в контексте селектора</h3>
+      <p>В контексте селектора используйте следующую очередность:</p>
+      <ol>
+        <li>Стилевые правила для этого селектора.</li>
+        <li>Вложенные сторонние селекторы.</li>
+        <li>Псевдоселекторы и псевдоэлементы.</li>
+        <li><code>@media</code> этого контекста.</li>
+        <li>БЭМ-элементы.</li>
+        <li>БЭМ-модификаторы.</li>
+      </ol>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="code__syntax  lang-less"><span class="code__line">.page-header {</span>
+<span class="code__line">  position: relative;</span>
+<span class="code__line">  display: block;</span>
+<span class="code__line">  </span>
+<span class="code__line">  // Этот блок простилизован в другом файле, тут только каскадная модификация</span>
+<span class="code__line">  .fp-tableCell { ... }</span>
+<span class="code__line">  </span>
+<span class="code__line">  &:before { ... }</span>
+<span class="code__line">  </span>
+<span class="code__line">  @media (min-width: @screen-lg) { ... }</span>
+<span class="code__line">  </span>
+<span class="code__line">  &__item {</span>
+<span class="code__line">    display: block;</span>
+<span class="code__line">  </span>
+<span class="code__line">    &:before { ... }</span>
+<span class="code__line">  </span>
+<span class="code__line">    @media (min-width: @screen-md) { ... }</span>
+<span class="code__line">  }</span>
+<span class="code__line">  </span>
+<span class="code__line">  &--large {</span>
+<span class="code__line">  </span>
+<span class="code__line">    .page-header__item { ... }</span>
+<span class="code__line">  </span>
+<span class="code__line">    @media (min-width: @screen-md) { ... }</span>
+<span class="code__line">  }</span>
+<span class="code__line">  </span>
+<span class="code__line">}</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="vars">
+    <div class="col">
+      <h3>Переменные</h3>
+      <ul>
+        <li>Выносите в переменные (как минимум):
+          <ul>
+            <li>цвета (<a href="http://nicothin.pro/page/preprocessor-color-functions">подробнее о цветах в переменных</a>),</li>
+            <li>размеры шрифтов и интерлиньяж (все значения интерлиньяжа можно не выносить в переменные, а задавать его в отн. единицах),</li>
+            <li>брейкпоинты.</li>
+          </ul>
+        </li>
+        <li>Для средних и крупных проектов определяйте в переменных цвета ссылок, бордюры, тени и прочие часто использующиеся величины.</li>
+        <li>Если при стилизации конкретных блоков указываете размер шрифта через переменную, указывайте интерлиньяж тоже через переменную, или через мат. операцию (от базового интерлиньяжа или от размера шрифта), или в относительных единицах (em).</li>
+        <li>Отделяйте смысловые блоки с переменными пустыми строками.</li>
+        <li>Используйте БЭМ-именование для переменных.</li>
+      </ul>
+    </div>
+    <div class="col">
+      <pre class="code"><code class="lang-less  code__syntax"><span class="code__line">@color-main:                  #0275d8;</span>
+<span class="code__line">@color-success:               #5cb85c;</span>
+<span class="code__line">@color-danger:                #d9534f;</span>
+<span class="code__line"> </span>
+<span class="code__line">@text-color:                  @gray-darkest;</span>
+<span class="code__line">@text-color--muted:           @gray;</span>
+<span class="code__line"> </span>
+<span class="code__line">@font-size:                   1.6rem;</span>
+<span class="code__line">@font-size--h1:               3rem;</span>
+<span class="code__line">...</span>
+<span class="code__line">@font-size--small:            0.75em;</span>
+<span class="code__line"> </span>
+<span class="code__line">@line-height:                 1.375em;</span>
+<span class="code__line"> </span>
+<span class="code__line">@font-family:                 'Roboto', Arial, sans-serif;</span>
+<span class="code__line"> </span>
+<span class="code__line">@screen-xs:                   0;</span>
+<span class="code__line">@screen-sm:                   480px;</span>
+<span class="code__line">@screen-md:                   768px;</span>
+<span class="code__line">@screen-lg:                   992px;</span>
+<span class="code__line">@screen-xl:                   1200px;</span></code></pre>
+    </div>
+  </div>
+
+  <div class="section" id="mixins">
+    <div class="col">
+      <h3>Примеси</h3>
+      <ul>
+        <li>Не пишите примеси без нужды! Писать примесь не нужно, когда:
+          <ul>
+            <li>В примеси 1-2 правила.</li>
+            <li>Примесь нужна на 1-2 вызова.</li>
+            <li>Примесь уже была написана кем-то/Вами ранее (<code>.clearfix();</code>).</li>
+          </ul>
+        </li>
+        <li>Делайте примеси как можно проще.</li>
+        <li>Используйте <a href="https://github.com/twbs/bootstrap/tree/master/less/mixins">уже готовые</a> <a href="https://github.com/zurb/foundation-sites/blob/develop/scss/util/_mixins.scss">наборы</a> <a href="https://github.com/nicothin/NTH-start-project/blob/master/src/scss/mixins/grid-mixins.scss">примесей</a>.</li>
+        <li>Не передавайте в примеси наборы правил (для «оборачивания» их в <code>@media</code>).</li>
+        <li>(LESS) При вызове примеси всегда пишите скобки.</li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer">
+    <p>&lt;3</p>
+    <p>Лицензия MIT. Автор: <a href="http://nicothin.pro">Николай Громов</a> <script>var mydate=new Date();var year=mydate.getYear();if (year<200)year=1900+year;document.write(year);</script>.</p>
+    <div class="page-footer__star">
+      <iframe src="https://ghbtns.com/github-btn.html?user=nicothin&repo=idiomatic-pre-CSS&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+    </div>
+  </footer>
+
+  <script>
+/* http://prismjs.com/download.html?themes=prism-solarizedlight&languages=markup+css+bash+less */
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var i=r[e];if(2==arguments.length){a=arguments[1];for(var l in a)a.hasOwnProperty(l)&&(i[l]=a[l]);return i}var o={};for(var s in i)if(i.hasOwnProperty(s)){if(s==t)for(var l in a)a.hasOwnProperty(l)&&(o[l]=a[l]);o[s]=i[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var i in e)e.hasOwnProperty(i)&&(t.call(e,i,e[i],a||i),"Object"!==n.util.type(e[i])||r[n.util.objId(e[i])]?"Array"!==n.util.type(e[i])||r[n.util.objId(e[i])]||(r[n.util.objId(e[i])]=!0,n.languages.DFS(e[i],t,i,r)):(r[n.util.objId(e[i])]=!0,n.languages.DFS(e[i],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,i=a.elements||document.querySelectorAll(a.selector),l=0;r=i[l++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var i,l,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(i=(o.className.match(e)||[,""])[1].toLowerCase(),l=n.languages[i]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+i,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+i);var s=t.textContent,u={element:t,language:i,grammar:l,code:s};if(n.hooks.run("before-sanity-check",u),!u.code||!u.grammar)return u.code&&(u.element.textContent=u.code),n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var g=new Worker(n.filename);g.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},g.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var i=n.tokenize(e,t);return a.stringify(n.util.encode(i),r)},tokenize:function(e,t){var a=n.Token,r=[e],i=t.rest;if(i){for(var l in i)t[l]=i[l];delete t.rest}e:for(var l in t)if(t.hasOwnProperty(l)&&t[l]){var o=t[l];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],g=u.inside,c=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;if(h&&!u.pattern.global){var p=u.pattern.toString().match(/[imuy]*$/)[0];u.pattern=RegExp(u.pattern.source,p+"g")}u=u.pattern||u;for(var m=0,y=0;m<r.length;y+=r[m].length,++m){var v=r[m];if(r.length>e.length)break e;if(!(v instanceof a)){u.lastIndex=0;var b=u.exec(v),k=1;if(!b&&h&&m!=r.length-1){if(u.lastIndex=y,b=u.exec(e),!b)break;for(var w=b.index+(c?b[1].length:0),_=b.index+b[0].length,A=m,P=y,j=r.length;j>A&&_>P;++A)P+=r[A].length,w>=P&&(++m,y=P);if(r[m]instanceof a||r[A-1].greedy)continue;k=A-m,v=e.slice(y,P),b.index-=y}if(b){c&&(f=b[1].length);var w=b.index+f,b=b[0].slice(f),_=w+b.length,x=v.slice(0,w),O=v.slice(_),S=[m,k];x&&S.push(x);var N=new a(l,g?n.tokenize(b,g):b,d,b,h);S.push(N),O&&S.push(O),Array.prototype.splice.apply(r,S)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,i=0;r=a[i++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.length=0|(a||"").length,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var i={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==i.type&&(i.attributes.spellcheck="true"),e.alias){var l="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(i.classes,l)}n.hooks.run("wrap",i);var o=Object.keys(i.attributes).map(function(e){return e+'="'+(i.attributes[e]||"").replace(/"/g,"&quot;")+'"'}).join(" ");return"<"+i.tag+' class="'+i.classes.join(" ")+'"'+(o?" "+o:"")+">"+i.content+"</"+i.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,i=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),i&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&("loading"!==document.readyState?window.requestAnimationFrame?window.requestAnimationFrame(n.highlightAll):window.setTimeout(n.highlightAll,16):document.addEventListener("DOMContentLoaded",n.highlightAll))),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+Prism.languages.markup={comment:/<!--[\w\W]*?-->/,prolog:/<\?[\w\W]+?\?>/,doctype:/<!DOCTYPE[\w\W]+?>/i,cdata:/<!\[CDATA\[[\w\W]*?]]>/i,tag:{pattern:/<\/?(?!\d)[^\s>\/=$<]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\\1|\\?(?!\1)[\w\W])*\1|[^\s'">=]+))?)*\s*\/?>/i,inside:{tag:{pattern:/^<\/?[^\s>\/]+/i,inside:{punctuation:/^<\/?/,namespace:/^[^\s>\/:]+:/}},"attr-value":{pattern:/=(?:('|")[\w\W]*?(\1)|[^\s>]+)/i,inside:{punctuation:/[=>"']/}},punctuation:/\/?>/,"attr-name":{pattern:/[^\s>\/]+/,inside:{namespace:/^[^\s>\/:]+:/}}}},entity:/&#?[\da-z]{1,8};/i},Prism.hooks.add("wrap",function(a){"entity"===a.type&&(a.attributes.title=a.content.replace(/&amp;/,"&"))}),Prism.languages.xml=Prism.languages.markup,Prism.languages.html=Prism.languages.markup,Prism.languages.mathml=Prism.languages.markup,Prism.languages.svg=Prism.languages.markup;
+Prism.languages.css={comment:/\/\*[\w\W]*?\*\//,atrule:{pattern:/@[\w-]+?.*?(;|(?=\s*\{))/i,inside:{rule:/@[\w-]+/}},url:/url\((?:(["'])(\\(?:\r\n|[\w\W])|(?!\1)[^\\\r\n])*\1|.*?)\)/i,selector:/[^\{\}\s][^\{\};]*?(?=\s*\{)/,string:{pattern:/("|')(\\(?:\r\n|[\w\W])|(?!\1)[^\\\r\n])*\1/,greedy:!0},property:/(\b|\B)[\w-]+(?=\s*:)/i,important:/\B!important\b/i,"function":/[-a-z0-9]+(?=\()/i,punctuation:/[(){};:]/},Prism.languages.css.atrule.inside.rest=Prism.util.clone(Prism.languages.css),Prism.languages.markup&&(Prism.languages.insertBefore("markup","tag",{style:{pattern:/(<style[\w\W]*?>)[\w\W]*?(?=<\/style>)/i,lookbehind:!0,inside:Prism.languages.css,alias:"language-css"}}),Prism.languages.insertBefore("inside","attr-value",{"style-attr":{pattern:/\s*style=("|').*?\1/i,inside:{"attr-name":{pattern:/^\s*style/i,inside:Prism.languages.markup.tag.inside},punctuation:/^\s*=\s*['"]|['"]\s*$/,"attr-value":{pattern:/.+/i,inside:Prism.languages.css}},alias:"language-css"}},Prism.languages.markup.tag));
+!function(e){var t={variable:[{pattern:/\$?\(\([\w\W]+?\)\)/,inside:{variable:[{pattern:/(^\$\(\([\w\W]+)\)\)/,lookbehind:!0},/^\$\(\(/],number:/\b-?(?:0x[\dA-Fa-f]+|\d*\.?\d+(?:[Ee]-?\d+)?)\b/,operator:/--?|-=|\+\+?|\+=|!=?|~|\*\*?|\*=|\/=?|%=?|<<=?|>>=?|<=?|>=?|==?|&&?|&=|\^=?|\|\|?|\|=|\?|:/,punctuation:/\(\(?|\)\)?|,|;/}},{pattern:/\$\([^)]+\)|`[^`]+`/,inside:{variable:/^\$\(|^`|\)$|`$/}},/\$(?:[a-z0-9_#\?\*!@]+|\{[^}]+\})/i]};e.languages.bash={shebang:{pattern:/^#!\s*\/bin\/bash|^#!\s*\/bin\/sh/,alias:"important"},comment:{pattern:/(^|[^"{\\])#.*/,lookbehind:!0},string:[{pattern:/((?:^|[^<])<<\s*)(?:"|')?(\w+?)(?:"|')?\s*\r?\n(?:[\s\S])*?\r?\n\2/g,lookbehind:!0,greedy:!0,inside:t},{pattern:/(["'])(?:\\\\|\\?[^\\])*?\1/g,greedy:!0,inside:t}],variable:t.variable,"function":{pattern:/(^|\s|;|\||&)(?:alias|apropos|apt-get|aptitude|aspell|awk|basename|bash|bc|bg|builtin|bzip2|cal|cat|cd|cfdisk|chgrp|chmod|chown|chroot|chkconfig|cksum|clear|cmp|comm|command|cp|cron|crontab|csplit|cut|date|dc|dd|ddrescue|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|du|egrep|eject|enable|env|ethtool|eval|exec|expand|expect|export|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|getopts|git|grep|groupadd|groupdel|groupmod|groups|gzip|hash|head|help|hg|history|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|jobs|join|kill|killall|less|link|ln|locate|logname|logout|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|make|man|mkdir|mkfifo|mkisofs|mknod|more|most|mount|mtools|mtr|mv|mmv|nano|netstat|nice|nl|nohup|notify-send|npm|nslookup|open|op|passwd|paste|pathchk|ping|pkill|popd|pr|printcap|printenv|printf|ps|pushd|pv|pwd|quota|quotacheck|quotactl|ram|rar|rcp|read|readarray|readonly|reboot|rename|renice|remsync|rev|rm|rmdir|rsync|screen|scp|sdiff|sed|seq|service|sftp|shift|shopt|shutdown|sleep|slocate|sort|source|split|ssh|stat|strace|su|sudo|sum|suspend|sync|tail|tar|tee|test|time|timeout|times|touch|top|traceroute|trap|tr|tsort|tty|type|ulimit|umask|umount|unalias|uname|unexpand|uniq|units|unrar|unshar|uptime|useradd|userdel|usermod|users|uuencode|uudecode|v|vdir|vi|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yes|zip)(?=$|\s|;|\||&)/,lookbehind:!0},keyword:{pattern:/(^|\s|;|\||&)(?:let|:|\.|if|then|else|elif|fi|for|break|continue|while|in|case|function|select|do|done|until|echo|exit|return|set|declare)(?=$|\s|;|\||&)/,lookbehind:!0},"boolean":{pattern:/(^|\s|;|\||&)(?:true|false)(?=$|\s|;|\||&)/,lookbehind:!0},operator:/&&?|\|\|?|==?|!=?|<<<?|>>|<=?|>=?|=~/,punctuation:/\$?\(\(?|\)\)?|\.\.|[{}[\];]/};var a=t.variable[1].inside;a["function"]=e.languages.bash["function"],a.keyword=e.languages.bash.keyword,a.boolean=e.languages.bash.boolean,a.operator=e.languages.bash.operator,a.punctuation=e.languages.bash.punctuation}(Prism);
+Prism.languages.less=Prism.languages.extend("css",{comment:[/\/\*[\w\W]*?\*\//,{pattern:/(^|[^\\])\/\/.*/,lookbehind:!0}],atrule:{pattern:/@[\w-]+?(?:\([^{}]+\)|[^(){};])*?(?=\s*\{)/i,inside:{punctuation:/[:()]/}},selector:{pattern:/(?:@\{[\w-]+\}|[^{};\s@])(?:@\{[\w-]+\}|\([^{}]*\)|[^{};@])*?(?=\s*\{)/,inside:{variable:/@+[\w-]+/}},property:/(?:@\{[\w-]+\}|[\w-])+(?:\+_?)?(?=\s*:)/i,punctuation:/[{}();:,]/,operator:/[+\-*\/]/}),Prism.languages.insertBefore("less","punctuation",{"function":Prism.languages.less.function}),Prism.languages.insertBefore("less","property",{variable:[{pattern:/@[\w-]+\s*:/,inside:{punctuation:/:/}},/@@?[\w-]+/],"mixin-usage":{pattern:/([{;]\s*)[.#](?!\d)[\w-]+.*?(?=[(;])/,lookbehind:!0,alias:"function"}});
+  </script>
+
+</body>
+</html>

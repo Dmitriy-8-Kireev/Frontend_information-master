@@ -1,0 +1,17 @@
+.Saved/
+_arc/
+bower_components/
+node_modules/
+.vscode/
+.DS_Store
+*.log
+*.sublime-*
+*.rar
+*.zip
+!build.zip
+.idea
+TEMP*
+old*
+.publish
+ex_files
+Thumbs.db
