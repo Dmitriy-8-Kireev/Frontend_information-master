@@ -39,7 +39,7 @@ https://github.com/Dmitriy-8-Kireev/Web-Development-Crib/tree/master/npm
 
 Список рекомендаций по вёрстке БЭМ 
 
-https://dmitriy-8-kireev.github.io/Frontend_information/
+https://dmitriy-8-kireev.github.io/Frontend_information-master/
 
 # Дополнительные материалы
 
