@@ -88,7 +88,8 @@ https://reactjs.org/docs/react-api.html
 ### ReactDOM
 https://reactjs.org/docs/react-dom.html
 
-
+### Документация create-react-app
+https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
 
 
 
