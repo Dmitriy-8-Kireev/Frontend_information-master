@@ -31,6 +31,9 @@ https://github.com/Dmitriy-8-Kireev/Web-Development-Crib/blob/master/git/readme.
 # Шпаргалка по NPM
 https://github.com/Dmitriy-8-Kireev/Web-Development-Crib/tree/master/npm
 
+# Шпаргалка по YARN
+https://github.com/areai51/yarn-cheatsheet
+
 # Шпаргалка по созданию всего cтека технологий JavaScript с нуля
 https://github.com/UsulPro/js-stack-from-scratch-v1-rus
 
