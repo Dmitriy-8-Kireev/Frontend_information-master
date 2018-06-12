@@ -77,6 +77,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://github.com/airbnb/javascript#table-of-contents
 
 # REACT 
+### Элементы - самые маленькие строительные блоки приложений React
+https://reactjs.org/docs/rendering-elements.html
+
 ### React Top-Level API
 https://reactjs.org/docs/react-api.html
 ### ReactDOM
