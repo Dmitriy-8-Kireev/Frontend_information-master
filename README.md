@@ -92,7 +92,7 @@ https://reactjs.org/docs/react-dom.html
 https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
 
 ### Styled-components
-https://www.styled-components.com/
+Документация https://www.styled-components.com/docs => примеры использования и концепция https://mxstbr.blog/2016/11/styled-components-magic-explained/
 
 
 
