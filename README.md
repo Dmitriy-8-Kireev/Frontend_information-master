@@ -91,5 +91,8 @@ https://reactjs.org/docs/react-dom.html
 ### Документация create-react-app
 https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
 
+### Styled-components
+https://www.styled-components.com/
+
 
 
