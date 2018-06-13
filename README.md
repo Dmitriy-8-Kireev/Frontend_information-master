@@ -75,10 +75,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 ### Object
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-### Airbnb JavaScript Style Guide
-
-https://github.com/airbnb/javascript#table-of-contents
-
 # REACT 
 ### Элементы - самые маленькие строительные блоки приложений React
 https://reactjs.org/docs/rendering-elements.html
@@ -96,3 +92,11 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 ### ReactRouter
 Документация https://reacttraining.com/react-router/web/guides/philosophy
+
+
+# REACT ПЛАГИНЫ
+### Правила написания по eslint-plugin-react
+https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
+
+### Airbnb JavaScript Style Guide
+https://github.com/airbnb/javascript#table-of-contents
