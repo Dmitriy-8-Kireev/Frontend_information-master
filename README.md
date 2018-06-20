@@ -94,6 +94,9 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 ### ReactRouter
 Документация https://reacttraining.com/react-router/web/guides/philosophy
 
+### Тестирование в React
+
+https://habr.com/company/infowatch/blog/315760/
 
 # REACT ПЛАГИНЫ
 ### Правила написания по eslint-plugin-react
