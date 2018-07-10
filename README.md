@@ -66,6 +66,9 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
    https://ru.bem.info/platform/tutorials/quick-start-static/
    
 # Java Script  MDN  методы встроенных типов
+### DOM-cheatsheet
+https://learn.javascript.ru/dom-cheatsheet
+
 ### String 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 ### Number
