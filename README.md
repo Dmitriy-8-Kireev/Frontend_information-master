@@ -81,6 +81,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 # REACT 
 ### Элементы - самые маленькие строительные блоки приложений React
 https://reactjs.org/docs/rendering-elements.html
+http://react.tips/
 
 ### React Top-Level API
 https://reactjs.org/docs/react-api.html
