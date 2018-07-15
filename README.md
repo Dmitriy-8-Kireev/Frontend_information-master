@@ -112,3 +112,5 @@ https://github.com/airbnb/javascript#table-of-contents
 # REACT ПОЛЕЗНОЕ
 ### SEO сервис сайт рендеринг 
 https://github.com/zeit/next.js/   https://zeit.co/
+### Учебник по Реакт
+http://theory.phphtml.net/books/advanced/javascript/react/
