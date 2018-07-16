@@ -116,3 +116,4 @@ https://github.com/zeit/next.js/   https://zeit.co/
 http://theory.phphtml.net/books/advanced/javascript/react/
 ### Конечные автоматы
 https://doesitmutate.xyz/
+https://medium.com/devschacht/jean-paul-delimat-boost-your-react-with-state-machines-8a22885dc348
