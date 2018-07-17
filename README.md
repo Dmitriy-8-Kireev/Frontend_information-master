@@ -90,6 +90,7 @@ https://habr.com/company/infowatch/blog/315760/
 ### Документация ENG
 https://redux.js.org/api-reference
 ### Документация RU
+https://rajdee.gitbooks.io/redux-in-russian/content/
 
 
 # REACT ПЛАГИНЫ
