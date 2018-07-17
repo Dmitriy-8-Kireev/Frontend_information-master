@@ -47,25 +47,9 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 # Дополнительные материалы
 
 ## Методология БЭМ (Яндекс) 
-  ###  Идея и архитектура
   https://ru.bem.info/methodology/
-   ## Быстрый старт
-   
-  https://ru.bem.info/methodology/quick-start/
-    
-
-## Инструментарий 
-
- https://ru.bem.info/toolbox/
-  
-
-## Платформа 
-   ### Готовая реализация
- https://ru.bem.info/platform/
-   ### Быстрый старт
-   https://ru.bem.info/platform/tutorials/quick-start-static/
-   
-# Java Script  MDN  методы встроенных типов
+ 
+   # Java Script  MDN  методы встроенных типов
 ### DOM-cheatsheet
 https://learn.javascript.ru/dom-cheatsheet
 
