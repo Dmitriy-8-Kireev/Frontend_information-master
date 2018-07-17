@@ -86,6 +86,12 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 https://habr.com/company/infowatch/blog/315760/
 
+# REDUX
+### Документация ENG
+https://redux.js.org/api-reference
+### Документация RU
+
+
 # REACT ПЛАГИНЫ
 ### Правила написания по eslint-plugin-react
 https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
