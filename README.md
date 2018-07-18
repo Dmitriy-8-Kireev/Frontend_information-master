@@ -52,15 +52,15 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
    # Java Script  MDN  методы встроенных типов
 ### DOM-cheatsheet
 https://learn.javascript.ru/dom-cheatsheet
-
+### Object
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 ### String 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 ### Number
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 ### Array
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-### Object
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
 
 # REACT 
 ### Элементы - самые маленькие строительные блоки приложений React
