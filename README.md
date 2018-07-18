@@ -56,10 +56,11 @@ https://learn.javascript.ru/dom-cheatsheet
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 ### Array
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-### String 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 ### Number
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+### String 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
 
 
 
