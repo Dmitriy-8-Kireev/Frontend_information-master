@@ -54,12 +54,13 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 https://learn.javascript.ru/dom-cheatsheet
 ### Object
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+### Array
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 ### String 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 ### Number
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
-### Array
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 
 
 # REACT 
