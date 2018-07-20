@@ -46,13 +46,9 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 ## Методология БЭМ (Яндекс) 
   https://ru.bem.info/methodology/
  
-   # Java Script  MDN  методы встроенных типов
-### DOM-cheatsheet
+   # DOM-cheatsheet
+
 https://learn.javascript.ru/dom-cheatsheet
-### Object
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
-
-
 
 # Шпаргалка по ES6 (2015)
 https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
