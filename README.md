@@ -55,8 +55,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 ### Number
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
-### String 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
 # Шпаргалка по ES6 (2015)
 https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
 
