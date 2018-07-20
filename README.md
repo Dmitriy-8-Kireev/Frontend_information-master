@@ -51,8 +51,7 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 https://learn.javascript.ru/dom-cheatsheet
 ### Object
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
-### Array
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 
 
 # Шпаргалка по ES6 (2015)
