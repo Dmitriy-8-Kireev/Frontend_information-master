@@ -45,13 +45,19 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 
 ## Методология БЭМ (Яндекс) 
   https://ru.bem.info/methodology/
- 
-   # DOM-cheatsheet
+  
+ # DOM-cheatsheet
 
 https://learn.javascript.ru/dom-cheatsheet
 
+# A re-introduction to JavaScript (JS tutorial)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
+
 # Шпаргалка по ES6 (2015)
 https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
+
+
 
 
 
