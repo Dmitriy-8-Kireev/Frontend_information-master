@@ -88,6 +88,11 @@ https://redux.js.org/api-reference
 ### Документация RU
 https://rajdee.gitbooks.io/redux-in-russian/content/
 
+# REDUX SAGA
+### Документация ENG
+https://redux-saga.js.org/
+
+
 
 # REACT ПЛАГИНЫ
 ### Правила написания по eslint-plugin-react
