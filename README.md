@@ -60,6 +60,9 @@ https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
 https://reactjs.org/docs/rendering-elements.html
 http://react.tips/
 
+### Подробное руководство по React.js в 2018 году
+https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
+
 ### React Top-Level API
 https://reactjs.org/docs/react-api.html
 ### ReactDOM
