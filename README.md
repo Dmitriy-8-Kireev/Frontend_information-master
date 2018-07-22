@@ -31,10 +31,6 @@ https://github.com/Dmitriy-8-Kireev/Web-Development-Crib/tree/master/npm
 # Шпаргалка по YARN
 https://github.com/areai51/yarn-cheatsheet
 
-# Шпаргалка по созданию всего cтека технологий JavaScript с нуля
-https://github.com/UsulPro/js-stack-from-scratch-v1-rus
-
-
 # Как работать с CSS-препроцессорами (БЭМ все в одном)
 
 Список рекомендаций по вёрстке БЭМ 
@@ -46,7 +42,10 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 ## Методология БЭМ (Яндекс) 
   https://ru.bem.info/methodology/
   
- # DOM-cheatsheet
+# Шпаргалка по созданию всего cтека технологий JavaScript с нуля
+https://github.com/UsulPro/js-stack-from-scratch-v1-rus
+
+# DOM-cheatsheet
 
 https://learn.javascript.ru/dom-cheatsheet
 
