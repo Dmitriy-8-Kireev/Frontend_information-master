@@ -37,10 +37,6 @@ https://github.com/areai51/yarn-cheatsheet
 
 https://dmitriy-8-kireev.github.io/Frontend_information-master/
 
-# Дополнительные материалы
-
-## Методология БЭМ (Яндекс) 
-  https://ru.bem.info/methodology/
   
 # Шпаргалка по созданию всего cтека технологий JavaScript с нуля
 https://github.com/UsulPro/js-stack-from-scratch-v1-rus
