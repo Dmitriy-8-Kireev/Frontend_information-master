@@ -61,6 +61,9 @@ https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
 ### Подробное руководство по React.js в 2018 году
 https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
 
+### React.js курс для начинающих
+https://maxfarseer.gitbooks.io/react-course-ru-v2/content/
+
 ### ReactDOM
 https://reactjs.org/docs/react-dom.html
 
