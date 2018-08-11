@@ -57,6 +57,8 @@ https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
 
 
 # REACT 
+### Документация ENG
+https://reactjs.org/
 
 ### Подробное руководство по React.js в 2018 году
 https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
