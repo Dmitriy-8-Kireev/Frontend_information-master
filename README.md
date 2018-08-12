@@ -117,4 +117,6 @@ https://vk.com/@maxpfrontend-shpargalka-po-metodam-dlya-raboty-s-massivami-v-jav
 https://getinstance.info/
 https://gifs.com/
 https://github.com/maxfarseer
+
+# Поиск решений
 https://stackoverflow.com/
