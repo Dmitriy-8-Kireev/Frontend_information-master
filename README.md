@@ -14,8 +14,11 @@ http://cssnext.io/features/#color-function
  справочники https://gridbyexample.com/learn/ и https://css-tricks.com/snippets/css/complete-guide-grid/
 => интерактив по Гридам http://yui.github.io/gridbuilder/ и https://codepen.io/anthonydugois/pen/RpYBmy
 # Правила верстки
-
 http://codeguide.co/
+
+# Java Script
+#### ENG https://www.w3schools.com/js/default.asp
+#### RU http://theory.phphtml.net/javascript/
 
 # Шпаргалки
 
