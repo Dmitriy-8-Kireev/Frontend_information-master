@@ -17,7 +17,7 @@ http://cssnext.io/features/#color-function
 http://codeguide.co/
 
 # Java Script
-#### ENG https://www.w3schools.com/js/default.asp
+#### ENG  https://msdn.microsoft.com/ru-ru/library/yek4tbz0(v=vs.94).aspx и https://www.w3schools.com/js/default.asp 
 #### RU http://theory.phphtml.net/javascript/
 
 # Шпаргалки
