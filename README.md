@@ -94,7 +94,8 @@ https://habr.com/company/infowatch/blog/315760/
 ### Документация ENG
 https://redux.js.org/api-reference
 ### Документация RU
-https://rajdee.gitbooks.io/redux-in-russian/content/
+##### https://rajdee.gitbooks.io/redux-in-russian/content/
+##### https://maxfarseer.gitbooks.io/redux-course-ru-v2/content/
 
 # REDUX SAGA
 ### Документация ENG
@@ -127,6 +128,6 @@ https://github.com/maxfarseer
 
 # Поиск решений
 https://stackoverflow.com/
-https://ru.stackoverflow.com/
+
 
 
