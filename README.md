@@ -128,6 +128,7 @@ https://github.com/maxfarseer
 
 # Поиск решений
 https://stackoverflow.com/
+https://ru.stackoverflow.com/
 
 
 
