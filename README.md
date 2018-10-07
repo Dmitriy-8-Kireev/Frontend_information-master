@@ -37,3 +37,17 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
   
 # Шпаргалка по созданию всего cтека технологий JavaScript с нуля
 https://github.com/UsulPro/js-stack-from-scratch-v1-rus
+# DOM-cheatsheet
+
+https://learn.javascript.ru/dom-cheatsheet
+
+# A re-introduction to JavaScript (JS tutorial)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
+
+# Шпаргалка по ES6 (2015)
+https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
+
+
+# Шпаргалка по THIS
+https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers и http://theory.phphtml.net/javascript/context/this.html и https://getinstance.info/articles/javascript/execution-context/ и https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/ 
