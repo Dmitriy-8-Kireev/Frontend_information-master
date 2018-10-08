@@ -51,3 +51,20 @@ https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
 
 # Шпаргалка по THIS
 https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers и http://theory.phphtml.net/javascript/context/this.html и https://getinstance.info/articles/javascript/execution-context/ и https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/ 
+
+# REACT 
+### Документация ENG
+https://reactjs.org/
+
+### Подробное руководство по React.js в 2018 году
+https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
+
+### React.js курс для начинающих
+https://maxfarseer.gitbooks.io/react-course-ru-v2/content/
+
+### ReactDOM
+https://reactjs.org/docs/react-dom.html
+
+### Документация create-react-app
+https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
+
