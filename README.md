@@ -72,3 +72,19 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 Форматирование строк https://developers.google.com/web/updates/2015/01/ES6-Template-Strings
 ### ReactRouter
 Документация https://reacttraining.com/react-router/web/guides/philosophy
+
+### Тестирование в React
+
+https://habr.com/company/infowatch/blog/315760/
+
+# REDUX
+### Документация ENG
+https://redux.js.org/api-reference
+### Документация RU
+##### https://rajdee.gitbooks.io/redux-in-russian/content/
+##### https://maxfarseer.gitbooks.io/redux-course-ru-v2/content/
+
+# REDUX SAGA
+### Документация ENG
+https://redux-saga.js.org/
+
