@@ -100,3 +100,5 @@ https://github.com/airbnb/javascript#table-of-contents
 https://habr.com/post/282578/
 ### SEO сервис сайт рендеринг 
 https://github.com/zeit/next.js/   https://zeit.co/
+### Учебник по Реакт
+http://theory.phphtml.net/books/advanced/javascript/react/
