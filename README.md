@@ -95,3 +95,6 @@ https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-s
 ### Airbnb JavaScript Style Guide
 https://github.com/airbnb/javascript#table-of-contents
 
+# REACT ПОЛЕЗНОЕ
+### MOBX
+https://habr.com/post/282578/
