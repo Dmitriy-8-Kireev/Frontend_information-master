@@ -88,3 +88,10 @@ https://redux.js.org/api-reference
 ### Документация ENG
 https://redux-saga.js.org/
 
+# REACT ПЛАГИНЫ
+### Правила написания по eslint-plugin-react
+https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
+
+### Airbnb JavaScript Style Guide
+https://github.com/airbnb/javascript#table-of-contents
+
