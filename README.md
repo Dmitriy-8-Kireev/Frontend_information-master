@@ -96,6 +96,8 @@ https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-s
 https://github.com/airbnb/javascript#table-of-contents
 
 # REACT ПОЛЕЗНОЕ
+### TypeScript с React и web РУКОВОДСТВО
+http://typescript-lang.ru/docs/tutorials/React%20&%20Webpack.html
 ### MOBX
 https://habr.com/post/282578/
 ### SEO сервис сайт рендеринг 
