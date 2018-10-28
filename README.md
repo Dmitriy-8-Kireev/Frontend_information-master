@@ -100,7 +100,7 @@ https://github.com/airbnb/javascript#table-of-contents
 
 # REACT ПОЛЕЗНОЕ
 ### TypeScript с React и web РУКОВОДСТВО
-http://typescript-lang.ru/docs/tutorials/React%20&%20Webpack.html
+http://typescript-lang.ru/docs/tutorials/React%20&%20Webpack.html и http://websketches.ru/blog/todo-na-react-i-typescript#setting-up-the-environment
 ### MOBX
 https://habr.com/post/282578/
 ### SEO сервис сайт рендеринг 
