@@ -52,6 +52,9 @@ https://habr.com/post/305900/ и https://learn.javascript.ru/es-modern
 # Шпаргалка по THIS
 https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers и http://theory.phphtml.net/javascript/context/this.html и https://getinstance.info/articles/javascript/execution-context/ и https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/ 
 
+# Шпаргалка по методам для работы с массивами в JavaScript
+https://vk.com/@maxpfrontend-shpargalka-po-metodam-dlya-raboty-s-massivami-v-javascript
+
 # REACT 
 ### Документация ENG
 https://reactjs.org/
