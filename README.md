@@ -118,3 +118,6 @@ https://github.com/maxfarseer
 # Поиск решений
 https://stackoverflow.com/
 https://ru.stackoverflow.com/
+# Мои статьи на MEDIUM
+### Самые важные уроки, которые я узнал после года работы с React
+https://medium.com/@virdginiya1903/publication-d826b68f0b92
