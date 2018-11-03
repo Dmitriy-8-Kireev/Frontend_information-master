@@ -25,13 +25,13 @@ http://codeguide.co/
 # Шпаргалки
 
 # Шпаргалка по bash
-https://github.com/Dmitriy-8-Kireev/Web-Development-Crib/tree/master/bash
+https://github.com/Dmitriy-8-Kireev/web-development/tree/master/bash
 
 # Шпаргалка по консольным командам Git
-https://github.com/Dmitriy-8-Kireev/Web-Development-Crib/blob/master/git/readme.md
+https://github.com/Dmitriy-8-Kireev/web-development/blob/master/git/readme.md
 
 # Шпаргалка по NPM
-https://github.com/Dmitriy-8-Kireev/Web-Development-Crib/tree/master/npm
+https://github.com/Dmitriy-8-Kireev/web-development/tree/master/npm
 
 # Шпаргалка по YARN
 https://github.com/areai51/yarn-cheatsheet
