@@ -20,6 +20,7 @@ http://codeguide.co/
 # Java Script
 #### ENG  https://msdn.microsoft.com/ru-ru/library/yek4tbz0(v=vs.94).aspx и https://www.w3schools.com/js/default.asp 
 #### RU http://theory.phphtml.net/javascript/ и https://developer.mozilla.org/ru/docs/Web/JavaScript
+#### Приоритет операторов в JS https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
 # Шпаргалки
 
