@@ -1,9 +1,3 @@
-# Мои статьи на MEDIUM
-### Самые важные уроки, которые я узнал после года работы с React
-https://medium.com/@virdginiya1903/publication-d826b68f0b92
-### Полезные методы массивов и объектов в JS
-https://medium.com/@virdginiya1903/publication-bda65f5be7a5
-
 # Справочники
 
 # Html 
@@ -129,4 +123,15 @@ https://github.com/maxfarseer
 # Поиск решений
 https://stackoverflow.com/
 https://ru.stackoverflow.com/
+
+# Мои статьи на MEDIUM
+### Самые важные уроки, которые я узнал после года работы с React
+https://medium.com/@virdginiya1903/publication-d826b68f0b92
+### Полезные методы массивов и объектов в JS
+https://medium.com/@virdginiya1903/publication-bda65f5be7a5
+
+
+# ТЗ
+### Джетлин 
+#### Разработать модуль пользовательского интерфейса: «Компонент Таблица» https://bitbucket.org/ptantemp/testproject/overview
 
