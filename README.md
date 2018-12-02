@@ -63,6 +63,8 @@ https://coggle.it/diagram/WcKc6FlcpgAB2bOl/t/%E2%80%BCjavascript
 # REACT 
 ### Документация ENG
 https://reactjs.org/
+### Документация RU
+https://learn-reactjs.ru/basics/topics
 
 ### Подробное руководство по React.js в 2018 году
 https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
