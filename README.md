@@ -6,8 +6,8 @@
 
 [CSS Reference - бесплатный визуальный справочник по CSS](https://cssreference.io/) [**EN**] –  Он содержит самые популярные свойства и объясняет их иллюстрированными и анимированными примерами.
 [Генератор кода для мультимедиа-контента](http://embedresponsively.com/) [**EN**] – Достаточно вставить ссылку на мультимедиа(карты/видео) и сайт сгенерирует код  
-# PostCss 
-http://cssnext.io/features/#color-function
+## PostCss 
+[Функции PostCss](http://cssnext.io/features/#color-function) [**EN**] 
 # Grids
  справочники https://gridbyexample.com/learn/ и https://css-tricks.com/snippets/css/complete-guide-grid/
 => интерактив по Гридам http://yui.github.io/gridbuilder/ и https://codepen.io/anthonydugois/pen/RpYBmy
