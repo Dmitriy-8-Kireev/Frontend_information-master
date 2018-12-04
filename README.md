@@ -8,11 +8,18 @@
 [Генератор кода для мультимедиа-контента](http://embedresponsively.com/) [**EN**] – Достаточно вставить ссылку на мультимедиа(карты/видео) и сайт сгенерирует код  
 ## PostCss 
 [Функции PostCss](http://cssnext.io/features/#color-function) [**EN**] 
+## Flexbox
+[Справочник CSS Reference по Flexbox](https://cssreference.io/flexbox/) [**EN**] - Свойства CSS, которые позволяют использовать возможности Flex3
+[Интерактив по флексам](http://flexbox.help/) [**EN**] 
+  
+ 
+ для продакшена https://dmitriy-8-kireev.github.io/flexboxgrid2/docs/
 # Grids
  справочники https://gridbyexample.com/learn/ и https://css-tricks.com/snippets/css/complete-guide-grid/
 => интерактив по Гридам http://yui.github.io/gridbuilder/ и https://codepen.io/anthonydugois/pen/RpYBmy
 # Правила верстки
 http://codeguide.co/
+
 # Java Script
 #### ENG  https://msdn.microsoft.com/ru-ru/library/yek4tbz0(v=vs.94).aspx и https://www.w3schools.com/js/default.asp 
 #### RU http://theory.phphtml.net/javascript/ и https://developer.mozilla.org/ru/docs/Web/JavaScript
