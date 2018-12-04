@@ -1,7 +1,7 @@
 # Справочники
 
-# Html 
-https://htmlreference.io/
+## Html 
+[Бесплатный справочник по HTML](https://htmlreference.io/) [**EN**] –  Он содержит все элементы и атрибуты.
 # Css 
 https://cssreference.io/
 # PostCss 
