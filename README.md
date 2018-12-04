@@ -2,8 +2,10 @@
 
 ## Html 
 [Бесплатный справочник по HTML](https://htmlreference.io/) [**EN**] –  Он содержит все элементы и атрибуты.
-# Css 
-https://cssreference.io/
+## Css 
+
+[CSS Reference - бесплатный визуальный справочник по CSS](https://cssreference.io/) [**EN**] –  Он содержит самые популярные свойства и объясняет их иллюстрированными и анимированными примерами.
+[Генератор кода для мультимедиа-контента](http://embedresponsively.com/) [**EN**] – Достаточно вставить ссылку на мультимедиа(карты/видео) и сайт сгенерирует код  
 # PostCss 
 http://cssnext.io/features/#color-function
 # Grids
