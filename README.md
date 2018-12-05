@@ -1,3 +1,7 @@
+# Набор компетенций
+https://habr.com/company/mailru/blog/425821/
+
+
 # Справочники
 
 ## Html 
