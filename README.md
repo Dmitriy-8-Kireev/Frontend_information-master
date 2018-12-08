@@ -77,6 +77,7 @@ https://coggle.it/diagram/WcKc6FlcpgAB2bOl/t/%E2%80%BCjavascript
 ### Документация ENG
 https://reactjs.org/
 ### Документация RU
+https://ru.react.js.org/docs/hello-world.html
 https://learn-reactjs.ru/basics/topics
 
 ### Подробное руководство по React.js в 2018 году
