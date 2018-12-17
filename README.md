@@ -79,7 +79,7 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 
 
 # Шпаргалка по THIS
-https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers и http://theory.phphtml.net/javascript/context/this.html и https://getinstance.info/articles/javascript/execution-context/ и https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/ 
+https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers и 📖http://theory.phphtml.net/javascript/context/this.html и https://getinstance.info/articles/javascript/execution-context/ и https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/ 
 
 # Шпаргалка по методам для работы с массивами в JavaScript
 https://vk.com/@maxpfrontend-shpargalka-po-metodam-dlya-raboty-s-massivami-v-javascript
@@ -98,6 +98,7 @@ https://learn-reactjs.ru/basics/topics
 
 ### Подробное руководство по React.js в 2018 году
 https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
+https://www.robinwieruch.de/
 
 ### React.js курс для начинающих
 https://maxfarseer.gitbooks.io/react-course-ru-v2/content/
