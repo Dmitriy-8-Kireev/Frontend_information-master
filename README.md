@@ -96,6 +96,9 @@ https://www.robinwieruch.de/react-redux-tutorial/
 https://ru.react.js.org/docs/hello-world.html
 https://learn-reactjs.ru/basics/topics
 
+### Учебник по REACT  RUS
+https://github.com/the-road-to-learn-react/the-road-to-learn-react-russian
+
 ### Подробное руководство по React.js в 2018 году
 https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
 https://www.robinwieruch.de/
