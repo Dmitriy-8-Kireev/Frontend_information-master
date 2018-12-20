@@ -166,6 +166,8 @@ https://github.com/airbnb/javascript/tree/master/react
 
 * [Основы JavaScript перед изучением React]https://www.robinwieruch.de/javascript-fundamentals-react-requirements/#react-javascript) [**EN**], краткий список всех различных функций JavaScript, дополняющих ваше приложение React.
 
+* [Условные методы рендеринга в React]https://www.robinwieruch.de/conditional-rendering-react/) [**EN**], краткий список всех способов с примерами.
+
 ## Ныряем в React с головой
 * [PureComponent в React](https://habrahabr.ru/company/redmadrobot/blog/318222/) [**RU**] – как и зачем применять, разбор отличий от Component.
 
