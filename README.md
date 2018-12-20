@@ -162,6 +162,7 @@ https://github.com/airbnb/javascript/tree/master/react
 
 * [Подборка интерактивных примеров](https://edgecoders.com/learning-react-js-is-easier-than-you-think-fbd6dc4d935a) [**EN**], которые помогут разобраться в базовых идеях, лежащих в основе библиотеки.
 
+* [Основы JavaScript перед изучением React]https://www.robinwieruch.de/javascript-fundamentals-react-requirements/#react-javascript) [**EN**], краткий список всех различных функций JavaScript, дополняющих ваше приложение React.
 
 ## Ныряем в React с головой
 * [PureComponent в React](https://habrahabr.ru/company/redmadrobot/blog/318222/) [**RU**] – как и зачем применять, разбор отличий от Component.
