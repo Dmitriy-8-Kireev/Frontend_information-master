@@ -137,7 +137,7 @@ https://redux-saga.js.org/
 https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
 
 ### Airbnb JavaScript Style Guide
-https://github.com/airbnb/javascript#table-of-contents
+https://github.com/leonidlebedev/javascript-airbnb
 
 ### Airbnb React Style Guide
 https://github.com/leonidlebedev/javascript-airbnb/tree/master/react
