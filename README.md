@@ -168,6 +168,9 @@ https://github.com/airbnb/javascript/tree/master/react
 
 * [Условные методы рендеринга в React] (https://www.robinwieruch.de/conditional-rendering-react/) [**EN**], краткий список всех способов с примерами.
 
+## Redux от Robinwieruch
+* [React Redux] (https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
+
 ## Дополнительные библиотки для React 
 * [23 лучших компонентных фреймворков React] (https://techrocks.ru/2018/04/06/23-best-react-ui-component-frameworks/) [**RU**], для пользовательского интерфейса.
 
