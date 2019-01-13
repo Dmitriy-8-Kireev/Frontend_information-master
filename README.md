@@ -315,6 +315,8 @@ https://github.com/maxfarseer
 https://www.udemy.com
 # Для создания регулярных выражений
 https://regex101.com
+# Для создания индикаторов загрузки
+htpps://loading.io
 # Поиск решений
 https://stackoverflow.com/
 https://ru.stackoverflow.com/
