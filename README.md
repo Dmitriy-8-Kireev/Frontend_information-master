@@ -168,6 +168,8 @@ https://github.com/leonidlebedev/javascript-airbnb/tree/master/react
 
 * [Условные методы рендеринга в React] (https://www.robinwieruch.de/conditional-rendering-react/) [**EN**], краткий список всех способов с примерами.
 
+* [React Hooks] (https://www.robinwieruch.de/react-hooks/) [**EN**], пошаговое руководство.
+
 ## Redux от Robinwieruch
 * [React Redux] (https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
 
