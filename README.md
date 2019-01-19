@@ -96,6 +96,9 @@ https://www.robinwieruch.de/react-redux-tutorial/
 https://ru.react.js.org/docs/hello-world.html
 https://learn-reactjs.ru/basics/topics
 
+### Диаграмма для понимания жизненных циклов React
+http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
 ### Учебник по REACT  RUS
 https://github.com/the-road-to-learn-react/the-road-to-learn-react-russian
 
