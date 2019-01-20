@@ -170,6 +170,7 @@ https://github.com/leonidlebedev/javascript-airbnb/tree/master/react
 * [Основы JavaScript перед изучением React] (https://www.robinwieruch.de/javascript-fundamentals-react-requirements/#react-javascript) [**EN**], краткий список всех различных функций JavaScript, дополняющих ваше приложение React.
 
 * [Условные методы рендеринга в React] (https://www.robinwieruch.de/conditional-rendering-react/) [**EN**], краткий список всех способов с примерами.
+* [React + Webpack 4 + Babel 7 ] (https://www.robinwieruch.de/minimal-react-webpack-babel-setup/) [**EN**], Руководство по установке.
 
 * [React Hooks] (https://www.robinwieruch.de/react-hooks/) [**EN**], пошаговое руководство.
 * [React Hooks] (https://www.robinwieruch.de/react-hooks-fetch-data/) [**EN**], Как получить данные с помощью React Hooks.
