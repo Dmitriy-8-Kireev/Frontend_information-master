@@ -130,6 +130,8 @@ https://redux.js.org/api-reference
 ### Документация RU
 ##### https://rajdee.gitbooks.io/redux-in-russian/content/
 ##### https://maxfarseer.gitbooks.io/redux-course-ru-v2/content/
+### Основы REDUX визуально
+https://gist.github.com/Dmitriy-8-Kireev/7d62a395f11f55590d844bfbf6029be5
 
 # REDUX SAGA
 ### Документация ENG
