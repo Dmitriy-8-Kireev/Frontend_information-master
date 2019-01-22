@@ -180,6 +180,7 @@ https://github.com/leonidlebedev/javascript-airbnb/tree/master/react
 
 ## Redux от Robinwieruch
 * [8 вещей, которые нужно выучить] (https://www.robinwieruch.de/learn-react-before-using-redux/) [**EN**],  в React перед использованием Redux.
+* [Советы по изучению React + Redux] (https://www.robinwieruch.de/tips-to-learn-react-redux/) [**EN**],  в 2018 году.
 * [React Redux] (https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
 
 ## Node.js (Express.js ) от Robinwieruch
