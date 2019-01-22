@@ -150,6 +150,10 @@ https://github.com/leonidlebedev/javascript-airbnb
 ### Airbnb React Style Guide
 https://github.com/leonidlebedev/javascript-airbnb/tree/master/react
 
+# REDUX ПЛАГИНЫ
+### Normalizr - это мощная библиотека, которая помогает вам нормализовать ваши данные
+https://github.com/paularmstrong/normalizr
+
 # REACT ПОЛЕЗНОЕ
 ## React: Основы основ
 * [Статья из официальной документации Thinking in React](https://habrahabr.ru/post/319134/) [**RU**] про идеологию библиотеки, поможет понять, основные идеи лежащие в основе React.
