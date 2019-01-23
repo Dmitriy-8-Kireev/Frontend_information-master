@@ -1,5 +1,6 @@
 # Набор компетенций
 https://habr.com/company/mailru/blog/425821/
+https://github.com/Dmitriy-8-Kireev/FAQGURU
 
 
 # Справочники по основам (Html, Css)
