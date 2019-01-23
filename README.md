@@ -179,28 +179,28 @@ https://github.com/paularmstrong/normalizr
 
 ## React от Robinwieruch
 
-* [Основы JavaScript перед изучением React] (https://www.robinwieruch.de/javascript-fundamentals-react-requirements/#react-javascript) [**EN**], краткий список всех различных функций JavaScript, дополняющих ваше приложение React.
+* [Основы JavaScript перед изучением React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/#react-javascript) [**EN**], краткий список всех различных функций JavaScript, дополняющих ваше приложение React.
 
-* [Условные методы рендеринга в React] (https://www.robinwieruch.de/conditional-rendering-react/) [**EN**], краткий список всех способов с примерами.
-* [React + Webpack 4 + Babel 7 ] (https://www.robinwieruch.de/minimal-react-webpack-babel-setup/) [**EN**], Руководство по установке.
+* [Условные методы рендеринга в React](https://www.robinwieruch.de/conditional-rendering-react/) [**EN**], краткий список всех способов с примерами.
+* [React + Webpack 4 + Babel 7 ](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/) [**EN**], Руководство по установке.
 
-* [React Hooks] (https://www.robinwieruch.de/react-hooks/) [**EN**], пошаговое руководство.
-* [React Hooks] (https://www.robinwieruch.de/react-hooks-fetch-data/) [**EN**], Как получить данные с помощью React Hooks.
+* [React Hooks](https://www.robinwieruch.de/react-hooks/) [**EN**], пошаговое руководство.
+* [React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data/) [**EN**], Как получить данные с помощью React Hooks.
 
 
 ## Redux от Robinwieruch
-* [8 вещей, которые нужно выучить] (https://www.robinwieruch.de/learn-react-before-using-redux/) [**EN**],  в React перед использованием Redux.
-* [Советы по изучению React + Redux] (https://www.robinwieruch.de/tips-to-learn-react-redux/) [**EN**],  в 2018 году.
-* [React Redux] (https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
-* [RThe SoundCloud Client in] (https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
+* [8 вещей, которые нужно выучить](https://www.robinwieruch.de/learn-react-before-using-redux/) [**EN**],  в React перед использованием Redux.
+* [Советы по изучению React + Redux](https://www.robinwieruch.de/tips-to-learn-react-redux/) [**EN**],  в 2018 году.
+* [React Redux](https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
+* [The SoundCloud Client in](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
 
 ## Node.js (Express.js ) от Robinwieruch
-* [Как настроить Express.js] (https://www.robinwieruch.de/node-js-express-tutorial/) [**EN**],  в Node.js.
+* [Как настроить Express.js](https://www.robinwieruch.de/node-js-express-tutorial/) [**EN**],  в Node.js.
 
 ## Дополнительные библиотки для React 
-* [23 лучших компонентных фреймворков React] (https://techrocks.ru/2018/04/06/23-best-react-ui-component-frameworks/) [**RU**], для пользовательского интерфейса.
+* [23 лучших компонентных фреймворков React](https://techrocks.ru/2018/04/06/23-best-react-ui-component-frameworks/) [**RU**], для пользовательского интерфейса.
 
-* [ТОП-9 библиотек для стилизации React UI] (https://proglib.io/p/styled-components/) [**RU**], через Styled-Components.
+* [ТОП-9 библиотек для стилизации React UI](https://proglib.io/p/styled-components/) [**RU**], через Styled-Components.
 
 ## Ныряем в React с головой
 * [PureComponent в React](https://habrahabr.ru/company/redmadrobot/blog/318222/) [**RU**] – как и зачем применять, разбор отличий от Component.
