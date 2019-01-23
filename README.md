@@ -1,6 +1,5 @@
 # Набор компетенций
 https://habr.com/company/mailru/blog/425821/
-https://github.com/Dmitriy-8-Kireev/FAQGURU
 
 
 # Справочники по основам (Html, Css)
@@ -88,6 +87,9 @@ https://vk.com/@maxpfrontend-shpargalka-po-metodam-dlya-raboty-s-massivami-v-jav
 https://medium.com/@sergeybulavyk/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%B8%D0%BF%D0%BE%D0%B2-%D0%B2-javascript-35a15ddfc333 для (== === if()) https://dorey.github.io/JavaScript-Equality-Table/
 # Шпаргалка по Java Script наглядная
 https://coggle.it/diagram/WcKc6FlcpgAB2bOl/t/%E2%80%BCjavascript
+
+# Список вопросов для интервью
+https://github.com/Dmitriy-8-Kireev/FAQGURU
 
 # REACT 
 ### Документация ENG
