@@ -189,6 +189,7 @@ https://github.com/paularmstrong/normalizr
 * [8 вещей, которые нужно выучить] (https://www.robinwieruch.de/learn-react-before-using-redux/) [**EN**],  в React перед использованием Redux.
 * [Советы по изучению React + Redux] (https://www.robinwieruch.de/tips-to-learn-react-redux/) [**EN**],  в 2018 году.
 * [React Redux] (https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
+* [RThe SoundCloud Client in] (https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
 
 ## Node.js (Express.js ) от Robinwieruch
 * [Как настроить Express.js] (https://www.robinwieruch.de/node-js-express-tutorial/) [**EN**],  в Node.js.
