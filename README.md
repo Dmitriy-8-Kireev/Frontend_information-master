@@ -186,6 +186,7 @@ https://github.com/paularmstrong/normalizr
 
 * [React Hooks](https://www.robinwieruch.de/react-hooks/) [**EN**], пошаговое руководство.
 * [React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data/) [**EN**], Как получить данные с помощью React Hooks.
+* [Когда использовать React Ref ](https://www.robinwieruch.de/react-ref-attribute-dom-node/) [**EN**], на узле DOM в React.
 
 
 ## Redux от Robinwieruch
