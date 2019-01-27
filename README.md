@@ -193,6 +193,11 @@ https://github.com/paularmstrong/normalizr
 * [React Redux](https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
 * [The SoundCloud Client in](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
 
+
+
+## Redux от Ohans Emmanuel
+* [TПонимание Redux:](https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6) [**EN**],  самое простое в мире руководство по началу работы с Redux.
+
 ## Node.js (Express.js ) от Robinwieruch
 * [Как настроить Express.js](https://www.robinwieruch.de/node-js-express-tutorial/) [**EN**],  в Node.js.
 
