@@ -95,10 +95,11 @@ https://medium.com/@sergeybulavyk/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%
 https://github.com/Dmitriy-8-Kireev/FAQGURU
 
 
+# REACT 
+
 ![1](https://user-images.githubusercontent.com/35657933/51844544-90686180-2326-11e9-95ed-30b2d3523a9a.gif)
 
 
-# REACT 
 ### Документация ENG
 https://reactjs.org/
 https://www.robinwieruch.de/react-redux-tutorial/
@@ -136,9 +137,12 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 https://habr.com/company/infowatch/blog/315760/
 
-![2](https://user-images.githubusercontent.com/35657933/51857966-a4bb5700-2344-11e9-8b1f-b2ff72eccc5c.gif)
 
 # REDUX
+
+![2](https://user-images.githubusercontent.com/35657933/51857966-a4bb5700-2344-11e9-8b1f-b2ff72eccc5c.gif)
+
+
 ### Документация ENG
 https://redux.js.org/api-reference
 ### Документация RU
