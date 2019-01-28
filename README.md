@@ -1,6 +1,8 @@
+![1](https://user-images.githubusercontent.com/35657933/51844544-90686180-2326-11e9-95ed-30b2d3523a9a.gif)
+
+
 # Набор компетенций
 https://habr.com/company/mailru/blog/425821/
-![1](https://user-images.githubusercontent.com/35657933/51844544-90686180-2326-11e9-95ed-30b2d3523a9a.gif)
 
 # Справочники по основам (Html, Css)
  
