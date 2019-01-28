@@ -49,6 +49,9 @@ https://github.com/areai51/yarn-cheatsheet
 
 https://dmitriy-8-kireev.github.io/Frontend_information-master/
 
+
+![java script](https://user-images.githubusercontent.com/35657933/51844702-e6d5a000-2326-11e9-83e2-8059f2819402.gif)
+
   
 # Шпаргалка по созданию всего cтека технологий JavaScript с нуля
 # Шпаргалка по ES6 (2015)
