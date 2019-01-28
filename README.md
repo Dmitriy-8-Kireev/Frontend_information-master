@@ -136,6 +136,8 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 https://habr.com/company/infowatch/blog/315760/
 
+![2](https://user-images.githubusercontent.com/35657933/51857966-a4bb5700-2344-11e9-8b1f-b2ff72eccc5c.gif)
+
 # REDUX
 ### Документация ENG
 https://redux.js.org/api-reference
