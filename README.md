@@ -1,6 +1,3 @@
-![1](https://user-images.githubusercontent.com/35657933/51844544-90686180-2326-11e9-95ed-30b2d3523a9a.gif)
-
-
 # Набор компетенций
 https://habr.com/company/mailru/blog/425821/
 
@@ -93,6 +90,10 @@ https://medium.com/@sergeybulavyk/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%
 
 # Список вопросов для интервью
 https://github.com/Dmitriy-8-Kireev/FAQGURU
+
+
+![1](https://user-images.githubusercontent.com/35657933/51844544-90686180-2326-11e9-95ed-30b2d3523a9a.gif)
+
 
 # REACT 
 ### Документация ENG
