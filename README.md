@@ -138,6 +138,7 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 https://habr.com/company/infowatch/blog/315760/
 
 
+
 # REDUX
 
 ![2](https://user-images.githubusercontent.com/35657933/51857966-a4bb5700-2344-11e9-8b1f-b2ff72eccc5c.gif)
@@ -173,6 +174,11 @@ https://github.com/leonidlebedev/javascript-airbnb/tree/master/react
 https://github.com/paularmstrong/normalizr
 ### Проектирование приложения с асинхронным кодом 
 https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/redux-thunk
+
+# REDUX ТЕСТИРОВАНИЕ
+* [Unit тестирование ](https://maxpfrontend.ru/vebinary/unit-testirovanie-redux-ekshenov-i-redyuserov/) [**RU**] – redux экшенов и редьюсеров.
+
+
 
 # REACT ПОЛЕЗНОЕ
 ## React: Основы основ
