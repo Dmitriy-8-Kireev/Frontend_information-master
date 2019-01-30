@@ -171,6 +171,8 @@ https://github.com/leonidlebedev/javascript-airbnb/tree/master/react
 # REDUX ПЛАГИНЫ
 ### Normalizr - это мощная библиотека, которая помогает вам нормализовать ваши данные
 https://github.com/paularmstrong/normalizr
+### Проектирование приложения с асинхронным кодом 
+https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/redux-thunk
 
 # REACT ПОЛЕЗНОЕ
 ## React: Основы основ
