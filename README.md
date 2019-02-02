@@ -53,7 +53,9 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 ![java script](https://user-images.githubusercontent.com/35657933/51844702-e6d5a000-2326-11e9-83e2-8059f2819402.gif)
 
   
-# Шпаргалка по созданию всего cтека технологий JavaScript с нуля
+# Шпаргалка по  JavaScript ( The Vanilla JS Toolkit )
+https://vanillajstoolkit.com
+
 # Шпаргалка по ES6 (2015)
 📖 [ES6 по-человечески](https://habr.com/post/305900/) [**RU**] - перевод краткого (действительно краткого) руководства по ES6.
 
