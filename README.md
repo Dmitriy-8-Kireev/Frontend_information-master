@@ -221,6 +221,8 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [React Redux](https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
 * [The SoundCloud Client in](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
 * [Boilerplate Project for Authentication ](https://github.com/the-road-to-react-with-firebase/react-redux-firebase-authentication) [**EN**], Firebase + React + Redux.
+* [React](https://www.robinwieruch.de/react-component-composition/) [**EN**], композиция компонентов.
+
 
 
 
