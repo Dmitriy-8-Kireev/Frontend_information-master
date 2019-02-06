@@ -56,6 +56,9 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 # Шпаргалка по  JavaScript ( The Vanilla JS Toolkit )
 https://vanillajstoolkit.com
 
+### Cтандарты языка ECMAScript 2019 + Важные правила React and Redux
+https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
+
 # Шпаргалка по ES6 (2015)
 📖 [ES6 по-человечески](https://habr.com/post/305900/) [**RU**] - перевод краткого (действительно краткого) руководства по ES6.
 
@@ -152,8 +155,8 @@ https://redux.js.org/api-reference
 ##### https://maxfarseer.gitbooks.io/redux-course-ru-v2/content/
 ### Основы REDUX визуально
 https://gist.github.com/Dmitriy-8-Kireev/7d62a395f11f55590d844bfbf6029be5
-### Cтандарты языка ECMAScript 2019 + Важные правила React and Redux
-https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
+### Примеры возможного кода на Redux
+https://gist.github.com/Dmitriy-8-Kireev/74e302c5cd4bcb6fb58ba9092c676b54
 
 
 # REDUX SAGA
