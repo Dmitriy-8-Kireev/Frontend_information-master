@@ -181,9 +181,12 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 # REDUX ТЕСТИРОВАНИЕ
 ### JEST
+* [JEST](https://github.com/Dmitriy-8-Kireev/jest) [**ENG**] –  facebook/jest.
 * [Unit тестирование ](https://maxpfrontend.ru/vebinary/unit-testirovanie-redux-ekshenov-i-redyuserov/) [**RU**] – redux экшенов и редьюсеров.
 * [Тестирование компонентов](https://maxpfrontend.ru/vebinary/testirovanie-komponentov-s-pomoschyu-jest-enzyme/) [**RU**] –  с помощью jest и enzyme.
 * [Примеры написания тестов](https://redux.js.org/recipes/writing-tests) [**ENG**] –  с помощью jest.
+
+
 
 
 # TYPE SCRIPT
