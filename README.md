@@ -183,7 +183,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [Unit тестирование ](https://maxpfrontend.ru/vebinary/unit-testirovanie-redux-ekshenov-i-redyuserov/) [**RU**] – redux экшенов и редьюсеров.
 * [Тестирование компонентов](https://maxpfrontend.ru/vebinary/testirovanie-komponentov-s-pomoschyu-jest-enzyme/) [**RU**] –  с помощью jest и enzyme.
 
-
+* [Vanilla TypeScript example](https://github.com/Dmitriy-8-Kireev/redux-store) [**EN**] –  of a Redux Store.
 
 # REACT ПОЛЕЗНОЕ
 ## React: Основы основ
