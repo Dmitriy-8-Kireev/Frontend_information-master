@@ -192,7 +192,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 
 # TYPE SCRIPT
-* [TypeScript](https://gist.github.com/Dmitriy-8-Kireev/40d4554dfe018fa241d2024e7d8c4690) [**RU**] –  Аннотирование типовб Типы,
+* [TypeScript](https://gist.github.com/Dmitriy-8-Kireev/40d4554dfe018fa241d2024e7d8c4690) [**RU**] –  Аннотирование типов, Типы,
 Приведение типов.
 * [Vanilla TypeScript example](https://github.com/Dmitriy-8-Kireev/redux-store) [**EN**] –  of a Redux Store.
 
