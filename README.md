@@ -43,6 +43,11 @@ https://github.com/Dmitriy-8-Kireev/web-development/tree/master/npm
 
 # Шпаргалка по YARN
 https://github.com/areai51/yarn-cheatsheet
+
+# Шпаргалка для быстрой разработки Full React/React Native/React Router/Redux/GraphQL/ES7/Testing/PropTypes snippets
+ 
+https://gist.github.com/Dmitriy-8-Kireev/c818d10a18e37638bcc81ebe30cf8401
+
 # Как работать с CSS-препроцессорами (БЭМ все в одном)
 
 Список рекомендаций по вёрстке БЭМ 
