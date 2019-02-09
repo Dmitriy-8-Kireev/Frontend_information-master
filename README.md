@@ -103,6 +103,9 @@ https://medium.com/@sergeybulavyk/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%
 # Список вопросов для интервью
 https://github.com/Dmitriy-8-Kireev/FAQGURU
 
+# Коллекция gitignore
+https://github.com/Dmitriy-8-Kireev/gitignore
+
 
 # REACT 
 
