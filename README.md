@@ -189,6 +189,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 # REDUX ТЕСТИРОВАНИЕ
 ### JEST
+* [Документация по JEST](https://jestjs.io/docs/ru/getting-started) [**RU**] – главный источник.
 * [JEST](https://github.com/Dmitriy-8-Kireev/jest) [**ENG**] –  facebook/jest.
 * [Основы тестирования](https://gist.github.com/Dmitriy-8-Kireev/e9da6f4612d0efd9a2025e690ba43727) [**RU**] –  Методология    TDD,JEST,ENZYME.
 
