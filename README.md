@@ -225,6 +225,9 @@ https://jazzteam.org/ru/technical-articles/restful-services-manual/
 https://jazzteam.org/ru/technical-articles/setup-and-setting-swagger/
 ### Готовим свой UI-интерфейс к Zabbix API средствами React componentи  Swagger
 https://habr.com/ru/post/344040/ реализация на гите https://github.com/Dmitriy-8-Kireev/zabbix-react
+### Декларативное программирование в web-е co Swagger
+https://habr.com/ru/post/336096/
+
 
 
 
