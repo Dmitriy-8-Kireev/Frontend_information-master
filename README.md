@@ -214,6 +214,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 📖 [Передача данных WEB-серверу с помощью POST-запросов](http://mypractic.ru/urok-72-http-protokol-prodolzhenie-peredacha-dannyx-web-serveru-s-pomoshhyu-post-zaprosov.html) [**RU**] 
 
+📖 [СПРАВОЧНИК коды ответов и методы](https://vds-admin.ru/http/kody-sostoyaniya-http-otveta-veb-servera-metody-http) [**RU**] - HTTP.
 
 # REACT ПОЛЕЗНОЕ
 ## React: Основы основ
