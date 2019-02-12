@@ -216,6 +216,15 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 📖 [Передача данных WEB-серверу с помощью POST-запросов](http://mypractic.ru/urok-72-http-protokol-prodolzhenie-peredacha-dannyx-web-serveru-s-pomoshhyu-post-zaprosov.html) [**RU**] 
 
+## Сервис для документирования RESTful API SWAGGER
+### Editor Swagger
+https://editor.swagger.io/
+### Лучшие практики проектирования REST API
+https://jazzteam.org/ru/technical-articles/restful-services-manual/
+### Установка и настройка Swagger
+https://jazzteam.org/ru/technical-articles/setup-and-setting-swagger/
+
+
 
 # REACT ПОЛЕЗНОЕ
 ## React: Основы основ
