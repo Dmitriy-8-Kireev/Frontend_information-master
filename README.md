@@ -153,7 +153,6 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 https://habr.com/company/infowatch/blog/315760/
 
 
-
 # REDUX
 
 ![2](https://user-images.githubusercontent.com/35657933/51857966-a4bb5700-2344-11e9-8b1f-b2ff72eccc5c.gif)
@@ -201,12 +200,13 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [Примеры написания тестов](https://redux.js.org/recipes/writing-tests) [**ENG**] –  с помощью jest.
 
 
-
-
 # TYPE SCRIPT
 * [TypeScript](https://gist.github.com/Dmitriy-8-Kireev/40d4554dfe018fa241d2024e7d8c4690) [**RU**] –  Аннотирование типов, Типы,
 Приведение типов.
 * [Vanilla TypeScript example](https://github.com/Dmitriy-8-Kireev/redux-store) [**EN**] –  of a Redux Store.
+
+# РАБОТА С СЕТЬЮ
+📖 [HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP) [**RU**] - Учебники и Справочники от MDN.
 
 # REACT ПОЛЕЗНОЕ
 ## React: Основы основ
