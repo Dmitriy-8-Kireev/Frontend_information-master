@@ -209,6 +209,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 📖 [HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP) [**RU**] - Учебники и Справочники от MDN.
 📖 [Что нужно знать про HTTP протокол веб-разработчику](https://zametkinapolyah.ru/servera-i-protokoly/chto-nuzhno-znat-pro-http-protokol-veb-razrabotchiku-pravila-http-protokola.html) [**RU**] -Правила HTTP протокола.
 📖 [HTTP cокращенно](https://ru.bmstu.wiki/HTTP_(Hypertext_Transfer_Protocol) [**RU**] - Материал из Национальной библиотеки им. Н. Э. Баумана.
+📖 [Передача данных WEB-серверу с помощью POST-запросов](http://mypractic.ru/urok-72-http-protokol-prodolzhenie-peredacha-dannyx-web-serveru-s-pomoshhyu-post-zaprosov.html) [**RU**] 
 
 
 # REACT ПОЛЕЗНОЕ
