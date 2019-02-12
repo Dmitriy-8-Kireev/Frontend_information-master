@@ -206,15 +206,16 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [Vanilla TypeScript example](https://github.com/Dmitriy-8-Kireev/redux-store) [**EN**] –  of a Redux Store.
 
 # РАБОТА С СЕТЬЮ
+📖 [СПРАВОЧНИК](https://vds-admin.ru/http/kody-sostoyaniya-http-otveta-veb-servera-metody-http) [**RU**] -  коды ответов и методы HTTP.
+
+📖 [HTTP cокращенно](https://ru.bmstu.wiki/HTTP_(Hypertext_Transfer_Protocol)) [**RU**] - Материал из Национальной библиотеки Баумана.
+
 📖 [HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP) [**RU**] - Учебники и Справочники от MDN.
 
 📖 [Что нужно знать про HTTP протокол веб-разработчику](https://zametkinapolyah.ru/servera-i-protokoly/chto-nuzhno-znat-pro-http-protokol-veb-razrabotchiku-pravila-http-protokola.html) [**RU**] -Правила HTTP протокола.
 
-📖 [HTTP cокращенно](https://ru.bmstu.wiki/HTTP_(Hypertext_Transfer_Protocol)) [**RU**] - Материал из Национальной библиотеки Баумана.
-
 📖 [Передача данных WEB-серверу с помощью POST-запросов](http://mypractic.ru/urok-72-http-protokol-prodolzhenie-peredacha-dannyx-web-serveru-s-pomoshhyu-post-zaprosov.html) [**RU**] 
 
-📖 [СПРАВОЧНИК коды ответов и методы](https://vds-admin.ru/http/kody-sostoyaniya-http-otveta-veb-servera-metody-http) [**RU**] - HTTP.
 
 # REACT ПОЛЕЗНОЕ
 ## React: Основы основ
