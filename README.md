@@ -109,6 +109,9 @@ https://github.com/Dmitriy-8-Kireev/FAQGURU
 # Коллекция gitignore
 https://github.com/Dmitriy-8-Kireev/gitignore
 
+# JS библиотекa RAMDA
+https://github.com/Dmitriy-8-Kireev/ramda
+
 
 # REACT 
 
