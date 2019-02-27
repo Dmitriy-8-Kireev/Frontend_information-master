@@ -112,6 +112,9 @@ https://github.com/Dmitriy-8-Kireev/gitignore
 # JS библиотекa RAMDA
 https://github.com/Dmitriy-8-Kireev/ramda
 
+# JS библиотекa  RxJS
+https://www.learnrxjs.io/
+
 
 # REACT 
 
