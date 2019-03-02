@@ -437,10 +437,7 @@ https://loading.io
 https://stackoverflow.com/
 https://ru.stackoverflow.com/
 
-# Мои статьи на MEDIUM
-### Самые важные уроки, которые я узнал после года работы с React
-https://medium.com/@virdginiya1903/publication-d826b68f0b92
-### Полезные методы массивов и объектов в JS
-https://medium.com/@virdginiya1903/publication-bda65f5be7a5
+# Сервис-эмулятор устройств iOS и Android
+https://www.responsinator.com/
 
 
