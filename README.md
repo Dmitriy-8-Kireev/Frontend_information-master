@@ -279,14 +279,14 @@ https://habr.com/ru/post/336096/
 * [Boilerplate Project for Authentication ](https://github.com/the-road-to-react-with-firebase/react-redux-firebase-authentication) [**EN**], Firebase + React + Redux.
 * [React](https://www.robinwieruch.de/react-component-composition/) [**EN**], композиция компонентов.
 
+## Node.js (Express.js ) от Robinwieruch
+* [Как настроить Express.js](https://www.robinwieruch.de/node-js-express-tutorial/) [**EN**],  в Node.js.
+* [Как создать REST API с помощью ](https://www.robinwieruch.de/node-express-server-rest-api/) [**EN**],  Express.js в Node.js.
 
 
 
 ## Redux от Ohans Emmanuel
 * [TПонимание Redux:](https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6) [**EN**],  самое простое в мире руководство по началу работы с Redux.
-
-## Node.js (Express.js ) от Robinwieruch
-* [Как настроить Express.js](https://www.robinwieruch.de/node-js-express-tutorial/) [**EN**],  в Node.js.
 
 ## Дополнительные библиотки для React 
 * [23 лучших компонентных фреймворков React](https://techrocks.ru/2018/04/06/23-best-react-ui-component-frameworks/) [**RU**], для пользовательского интерфейса.
