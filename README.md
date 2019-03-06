@@ -222,6 +222,8 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 📖 [Передача данных WEB-серверу с помощью POST-запросов](http://mypractic.ru/urok-72-http-protokol-prodolzhenie-peredacha-dannyx-web-serveru-s-pomoshhyu-post-zaprosov.html) [**RU**] 
 
+📖 [КАК ПРАВИЛЬНО РАБОТАТЬ С REST API](https://itvdn.com/ru/blog/article/rest-api-18) [**RU**] -Маршрут отправки,Тип метода,Заголовки,Тело (или данные).
+
 ## Сервис для документирования RESTful API SWAGGER
 ### Editor Swagger
 https://editor.swagger.io/
