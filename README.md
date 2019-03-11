@@ -438,6 +438,8 @@ https://getinstance.info/
 https://gifs.com/
 https://github.com/maxfarseer
 https://www.udemy.com
+#  Документация Docker на русском
+https://docker.crank.ru/docs/docker-engine/install/installation-on-windows/
 # Для создания регулярных выражений
 https://regex101.com
 # Для создания индикаторов загрузки
