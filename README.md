@@ -47,7 +47,9 @@ https://github.com/Dmitriy-8-Kireev/web-development/tree/master/npm
 https://github.com/areai51/yarn-cheatsheet
 
 # Шпаргалка по Docker
-https://gist.github.com/Dmitriy-8-Kireev/f78388bd5aeb4069b5024d8558555555 и Dmitriy-8-Kireev/DockerCheatSheet
+* (https://gist.github.com/Dmitriy-8-Kireev/f78388bd5aeb4069b5024d8558555555) [**RU**]
+* (https://github.com/Dmitriy-8-Kireev/DockerCheatSheet) [**ENG**]
+ 
 
 # Шпаргалка для быстрой разработки Full React/React Native/React Router/Redux/GraphQL/ES7/Testing/PropTypes snippets
  
