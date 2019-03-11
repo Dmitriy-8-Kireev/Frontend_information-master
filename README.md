@@ -68,6 +68,9 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 # Шпаргалка по  JavaScript ( The Vanilla JS Toolkit )
 https://vanillajstoolkit.com
 
+# Справочник JavaScript от Трепачёва Дмитрия
+http://code.mu/javascript/
+
 ### Cтандарты языка ECMAScript 2019 + Важные правила React and Redux
 https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
 
