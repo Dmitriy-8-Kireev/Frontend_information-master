@@ -247,8 +247,6 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 https://editor.swagger.io/
 ### Лучшие практики проектирования REST API
 https://jazzteam.org/ru/technical-articles/restful-services-manual/
-### Установка и настройка Swagger
-https://jazzteam.org/ru/technical-articles/setup-and-setting-swagger/
 ### Готовим свой UI-интерфейс к Zabbix API средствами React componentи  Swagger
 https://habr.com/ru/post/344040/ реализация на гите https://github.com/Dmitriy-8-Kireev/zabbix-react
 ### Декларативное программирование в web-е co Swagger
