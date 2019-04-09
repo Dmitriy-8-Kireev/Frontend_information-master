@@ -1,6 +1,3 @@
-![h0vv](https://user-images.githubusercontent.com/35657933/51857820-44c4b080-2344-11e9-909f-e7c3c05ca46b.gif)
-
-
 # Набор компетенций
 https://habr.com/company/mailru/blog/425821/
 
