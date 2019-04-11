@@ -59,8 +59,6 @@ https://gist.github.com/Dmitriy-8-Kireev/c818d10a18e37638bcc81ebe30cf8401
 https://dmitriy-8-kireev.github.io/Frontend_information-master/
 
 
-![java script](https://user-images.githubusercontent.com/35657933/51844702-e6d5a000-2326-11e9-83e2-8059f2819402.gif)
-
   
 # Шпаргалка по  JavaScript ( The Vanilla JS Toolkit )
 https://vanillajstoolkit.com
