@@ -131,9 +131,6 @@ https://www.learnrxjs.io/
 
 # REACT 
 
-![1](https://user-images.githubusercontent.com/35657933/51844544-90686180-2326-11e9-95ed-30b2d3523a9a.gif)
-
-
 ### Документация ENG
 https://reactjs.org/
 https://www.robinwieruch.de/react-redux-tutorial/
