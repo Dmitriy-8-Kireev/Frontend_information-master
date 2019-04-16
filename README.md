@@ -48,7 +48,7 @@ https://github.com/areai51/yarn-cheatsheet
 * (https://github.com/Dmitriy-8-Kireev/DockerCheatSheet) [**ENG**]
  
 
-# Шпаргалка для быстрой разработки Full React/React Native/React Router/Redux/GraphQL/ES7/Testing/PropTypes snippets
+# Шпаргалка для быстрой разработки Full React/React Native/React Router/Redux/ snippets
  
 https://gist.github.com/Dmitriy-8-Kireev/c818d10a18e37638bcc81ebe30cf8401
 
