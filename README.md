@@ -131,6 +131,10 @@ https://www.learnrxjs.io/
 # Документация Webpack ПЛАГИНЫ
 https://webpack.js.org/plugins
 
+# Документация Chrome DevTools
+https://developers.google.com/web/tools/chrome-devtools/
+
+
 
 # REACT 
 
