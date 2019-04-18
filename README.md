@@ -128,6 +128,9 @@ https://github.com/Dmitriy-8-Kireev/ramda
 # JS библиотекa  RxJS
 https://www.learnrxjs.io/
 
+# Документация Webpack ПЛАГИНЫ
+https://webpack.js.org/plugins
+
 
 # REACT 
 
