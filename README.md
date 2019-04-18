@@ -43,6 +43,9 @@ https://github.com/Dmitriy-8-Kireev/web-development/tree/master/npm
 # Шпаргалка по YARN
 https://github.com/areai51/yarn-cheatsheet
 
+# Шпаргалка по DevTools
+http://anti-code.com/devtools-cheatsheet/
+
 # Шпаргалка по Docker
 * (https://gist.github.com/Dmitriy-8-Kireev/f78388bd5aeb4069b5024d8558555555) [**RU**]
 * (https://github.com/Dmitriy-8-Kireev/DockerCheatSheet) [**ENG**]
