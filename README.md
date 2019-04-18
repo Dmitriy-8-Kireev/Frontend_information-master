@@ -31,6 +31,13 @@ https://habr.com/company/mailru/blog/425821/
 
 # Шпаргалки
 
+
+# Шпаргалка по HTML
+https://horoshiy-otzyv.ru/shpargalka-html/
+
+# Шпаргалка по CSS
+https://horoshiy-otzyv.ru/shpargalka-css/
+
 # Шпаргалка по bash
 https://github.com/Dmitriy-8-Kireev/web-development/tree/master/bash
 
