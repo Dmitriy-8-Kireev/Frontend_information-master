@@ -27,15 +27,13 @@ https://habr.com/company/mailru/blog/425821/
 
 
 
-
-
 # Шпаргалки
 
 
-# Шпаргалка по HTML
+# Шпаргалка по Html
 https://horoshiy-otzyv.ru/shpargalka-html/
 
-# Шпаргалка по CSS
+# Шпаргалка по Css
 https://horoshiy-otzyv.ru/shpargalka-css/
 
 # Шпаргалка по bash
