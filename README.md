@@ -36,7 +36,7 @@ https://horoshiy-otzyv.ru/shpargalka-html/
 # Шпаргалка по Css
 https://horoshiy-otzyv.ru/shpargalka-css/
 
-# Шпаргалка по bash
+# Шпаргалка по Bash
 https://github.com/Dmitriy-8-Kireev/web-development/tree/master/bash
 
 # Шпаргалка по консольным командам Git
