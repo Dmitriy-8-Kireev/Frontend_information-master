@@ -299,6 +299,7 @@ https://habr.com/ru/post/336096/
 * [React Hooks](https://www.robinwieruch.de/react-hooks/) [**EN**], пошаговое руководство.
 * [React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data/) [**EN**], Как получить данные с помощью React Hooks.
 * [Когда использовать React Ref ](https://www.robinwieruch.de/react-ref-attribute-dom-node/) [**EN**], на узле DOM в React.
+* [Пример работы со списком компонентов ](https://www.robinwieruch.de/react-list-components/) [**EN**], в React.
 
 
 ## Redux от Robinwieruch
