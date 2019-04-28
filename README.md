@@ -442,7 +442,6 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 * [Руководство по использованию TDD подхода при разработке React приложений](https://www.spencerdixon.com/blog/test-driven-react-tutorial.html) [**EN**]
 
-https://habr.com/company/infowatch/blog/315760/
 
 ### TypeScript с React и web РУКОВОДСТВО
 http://typescript-lang.ru/docs/tutorials/React%20&%20Webpack.html и http://websketches.ru/blog/todo-na-react-i-typescript#setting-up-the-environment
