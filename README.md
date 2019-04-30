@@ -423,9 +423,9 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
   * [Часть 2](https://habrahabr.ru/post/310284/)
   * [Часть 3](https://habrahabr.ru/post/310952/)
 
-* [Создаём клон Реддита](https://www.sitepoint.com/reddit-clone-react-firebase/) [**EN**] с помощью React и Firebase
+* [Создаём Реддит](https://www.sitepoint.com/reddit-clone-react-firebase/) [**EN**] с помощью React и Firebase
 
-* [Создаём клон Твиттера](https://scotch.io/tutorials/build-a-twitter-like-search-feed-with-react-js-and-appbase-io) [**EN**] на React с использованием appbase в качестве бэкенда.
+* [Создаём Твиттер](https://scotch.io/tutorials/build-a-twitter-like-search-feed-with-react-js-and-appbase-io) [**EN**] на React с использованием appbase в качестве бэкенда.
 
 * Создаём медиа-библиотеку с помощью React, Redux и Redux-saga [**EN**]:
   * [Часть 1](https://scotch.io/tutorials/build-a-media-library-with-react-redux-and-redux-saga-part-1)
