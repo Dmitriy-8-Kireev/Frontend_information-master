@@ -299,6 +299,7 @@ https://habr.com/ru/post/336096/
 * [React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data/) [**EN**], Как получить данные с помощью React Hooks.
 * [Когда использовать React Ref ](https://www.robinwieruch.de/react-ref-attribute-dom-node/) [**EN**], на узле DOM в React.
 * [Пример работы со списком компонентов ](https://www.robinwieruch.de/react-list-components/) [**EN**], в React.
+* [React](https://www.robinwieruch.de/react-component-composition/) [**EN**], композиция компонентов.
 
 
 ## Redux от Robinwieruch
@@ -308,7 +309,7 @@ https://habr.com/ru/post/336096/
 * [React Redux](https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
 * [The SoundCloud Client in](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
 * [Boilerplate Project for Authentication ](https://github.com/the-road-to-react-with-firebase/react-redux-firebase-authentication) [**EN**], Firebase + React + Redux.
-* [React](https://www.robinwieruch.de/react-component-composition/) [**EN**], композиция компонентов.
+
 
 ## Node.js (Express.js ) от Robinwieruch
 * [Как настроить Express.js](https://www.robinwieruch.de/node-js-express-tutorial/) [**EN**],  в Node.js.
