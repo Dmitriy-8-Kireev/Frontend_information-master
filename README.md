@@ -291,6 +291,7 @@ https://habr.com/ru/post/336096/
 ## React от Robinwieruch
 
 * [Основы JavaScript перед изучением React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/#react-javascript) [**EN**], краткий список всех различных функций JavaScript, дополняющих ваше приложение React.
+* [Что такое Reducer](https://www.robinwieruch.de/javascript-reducer/) [**EN**], в JavaScript.
 * [Глубокое погружение в JavaScript-метод Map](https://www.robinwieruch.de/javascript-map-array/) [**EN**], для сложных операций с данными.
 * [Условные методы рендеринга в React](https://www.robinwieruch.de/conditional-rendering-react/) [**EN**], краткий список всех способов с примерами.
 * [React + Webpack 4 + Babel 7 ](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/) [**EN**], Руководство по установке.
