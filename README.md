@@ -304,8 +304,9 @@ https://habr.com/ru/post/336096/
 
 ## Redux от Robinwieruch
 * [8 вещей, которые нужно выучить](https://www.robinwieruch.de/learn-react-before-using-redux/) [**EN**],  в React перед использованием Redux.
-* [Советы по изучению React + Redux](https://www.robinwieruch.de/tips-to-learn-react-redux/) [**EN**],  в 2018 году.
+* [Советы по изучению React + Redux](https://www.robinwieruch.de/tips-to-learn-react-redux/) [**EN**], в 2018 году. 
 * [Что такое Reducer](https://www.robinwieruch.de/javascript-reducer/) [**EN**], в JavaScript.
+* [Как использовать Reducer](https://www.robinwieruch.de/react-usereducer-hook/) [**EN**], в React?
 * [Как использовать Redux и React ](https://www.robinwieruch.de/react-firebase-redux-tutorial/) [**EN**], с Firebase.
 * [React Redux](https://www.robinwieruch.de/react-redux-tutorial/) [**EN**],  учебник для начинающих.
 * [The SoundCloud Client in](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
