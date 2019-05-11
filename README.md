@@ -300,6 +300,8 @@ https://habr.com/ru/post/336096/
 * [Когда использовать React Ref ](https://www.robinwieruch.de/react-ref-attribute-dom-node/) [**EN**], на узле DOM в React.
 * [Пример работы со списком компонентов ](https://www.robinwieruch.de/react-list-components/) [**EN**], в React.
 * [React](https://www.robinwieruch.de/react-component-composition/) [**EN**], композиция компонентов.
+* [React](https://www.robinwieruch.de/react-scroll-to-item/) [**EN**], реализация прокрутки.
+
 
 
 ## Redux от Robinwieruch
