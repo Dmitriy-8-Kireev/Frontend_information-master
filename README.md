@@ -82,6 +82,10 @@ https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
 
 📖 [DOM: Поиск, Навигация, Работа с DOM](https://learn.javascript.ru/es-modern) [**RU**] - ChromeDevTools, Основы работы с событиями, Работа с THIS.
 
+📖 [JS: React](https://coursehunter-club.net/t/hexlet-js-react/480) [**RU**] - React.
+
+📖 [DOM: Поиск, Навигация, Работа с DOM](https://learn.javascript.ru/es-modern) [**RU**] - ChromeDevTools, Основы работы с событиями, Работа с THIS.
+
 
 
 # Шпаргалка по ES6 (2015) + DOM API
