@@ -305,6 +305,7 @@ https://habr.com/ru/post/336096/
 * [Пример работы со списком компонентов ](https://www.robinwieruch.de/react-list-components/) [**EN**], в React.
 * [React](https://www.robinwieruch.de/react-component-composition/) [**EN**], композиция компонентов.
 * [React](https://www.robinwieruch.de/react-scroll-to-item/) [**EN**], реализация прокрутки.
+* [React](https://www.robinwieruch.de/react-lift-state/) [**EN**], работа со state.
 
 
 
