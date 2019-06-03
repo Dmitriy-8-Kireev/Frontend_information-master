@@ -127,7 +127,7 @@ https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
 https://vk.com/@maxpfrontend-shpargalka-po-metodam-dlya-raboty-s-massivami-v-javascript https://doesitmutate.xyz/
 
 # Шпаргалка по THIS
-https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers и 📖http://theory.phphtml.net/javascript/context/this.html и https://getinstance.info/articles/javascript/execution-context/ и https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/ 
+https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers и http://theory.phphtml.net/javascript/context/this.html и https://getinstance.info/articles/javascript/execution-context/ и https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/ и https://javascript.ru/tutorial/object/thiskeyword
 
 # Приоритет операторов в JavaScript
 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
