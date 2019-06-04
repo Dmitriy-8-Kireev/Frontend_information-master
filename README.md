@@ -468,6 +468,7 @@ http://theory.phphtml.net/books/advanced/javascript/react/
 https://medium.com/devschacht/jean-paul-delimat-boost-your-react-with-state-machines-8a22885dc348
 
 # ПОЛЕЗНЫЕ САЙТЫ
+http://wm-school.ru/js/js_obj_properties.php
 https://getinstance.info/
 https://gifs.com/
 https://github.com/maxfarseer
