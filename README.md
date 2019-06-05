@@ -308,6 +308,7 @@ https://habr.com/ru/post/336096/
 * [React](https://www.robinwieruch.de/react-component-composition/) [**EN**], композиция компонентов.
 * [React](https://www.robinwieruch.de/react-scroll-to-item/) [**EN**], реализация прокрутки.
 * [React](https://www.robinwieruch.de/react-lift-state/) [**EN**], работа со state.
+* [Разделение кода](https://tylermcginnis.com/react-router-code-splitting/) [**EN**], с помощью React и React Router.
 
 
 
