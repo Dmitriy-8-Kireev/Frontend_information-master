@@ -82,7 +82,7 @@ https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
 
 📖 [Виды Функций, Области видимости и замыкание](https://coursehunter-club.net/t/jsexpert-ponyatnyj-javascript-middle-part-1/809) [**RU**] - расширенные возможности функции, глобальные функции, Объекты, Втроенные объекты в JavaScript, Массивы, Итераторы Массивы.
 
-📖 [DOM: Поиск, Навигация, Работа с DOM](https://learn.javascript.ru/es-modern) [**RU**] - ChromeDevTools, Основы работы с событиями, Работа с THIS.
+📖 [DOM: Поиск, Навигация, Работа с DOM](https://coursehunter-club.net/t/jsexpert-ponyatnyj-javascript-middle-part-2/810) [**RU**] - ChromeDevTools, Основы работы с событиями, Работа с THIS.
 
 📖 [JS: React](https://coursehunter-club.net/t/hexlet-js-react/480) [**RU**] - React.
 
