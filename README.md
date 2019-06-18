@@ -305,6 +305,7 @@ https://habr.com/ru/post/336096/
 * [React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data/) [**EN**], Как получить данные с помощью React Hooks.
 * [Когда использовать React Ref ](https://www.robinwieruch.de/react-ref-attribute-dom-node/) [**EN**], на узле DOM в React.
 * [Пример работы со списком компонентов ](https://www.robinwieruch.de/react-list-components/) [**EN**], в React.
+* [Как использовать Web-компоненты](https://www.robinwieruch.de/react-web-components/) [**EN**], в React.
 * [React](https://www.robinwieruch.de/react-component-composition/) [**EN**], композиция компонентов.
 * [React](https://www.robinwieruch.de/react-scroll-to-item/) [**EN**], реализация прокрутки.
 * [React](https://www.robinwieruch.de/react-lift-state/) [**EN**], работа со state.
