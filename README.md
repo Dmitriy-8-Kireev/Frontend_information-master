@@ -485,6 +485,8 @@ https://loading.io
 # Поиск решений
 https://stackoverflow.com/
 https://ru.stackoverflow.com/
+# Хороший решебник для Frontend разработчика
+http://docode.ru/map
 
 # Сервис-эмулятор устройств iOS и Android
 https://www.responsinator.com/
