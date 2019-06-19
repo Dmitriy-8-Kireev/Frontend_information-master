@@ -487,6 +487,7 @@ https://stackoverflow.com/
 https://ru.stackoverflow.com/
 # Хороший решебник для Frontend разработчика
 http://docode.ru/map
+http://video.docode.ru/
 
 # Сервис-эмулятор устройств iOS и Android
 https://www.responsinator.com/
