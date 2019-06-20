@@ -313,6 +313,7 @@ https://habr.com/ru/post/336096/
 * [React](https://www.robinwieruch.de/react-lift-state/) [**EN**], работа со state.
 * [Разделение кода](https://tylermcginnis.com/react-router-code-splitting/) [**EN**], с помощью React и React Router.
 * [Как использовать](https://www.robinwieruch.de/how-to-use-prettier-vscode/) [**EN**], Prettier в VS Code.
+* [Как заставить Prettier](https://www.robinwieruch.de/prettier-eslint/) [**EN**], работать с EsLint.
 
 
 
