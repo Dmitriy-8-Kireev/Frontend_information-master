@@ -384,6 +384,8 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 Форматирование строк https://developers.google.com/web/updates/2015/01/ES6-Template-Strings
 
 ## Роутинг
+* [Роутинг](https://reacttraining.com/react-router/web/guides/phi..) [**EN**] – документация.
+
 * [React Router 4](https://habrahabr.ru/post/329996/) [**RU**] – простое объяснение отличий от предыдущих версий.
 
 * [React router + browserHistory](https://www.youtube.com/watch?v=cdUyEou0LHg) [**EN**] – как правильно использовать в продакшене.
@@ -399,9 +401,6 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 * [Как написать свой роутер](https://hackernoon.com/routing-in-react-the-uncomplicated-way-b2c5ffaee997) [**EN**] – руководство по созданию собственного роутера, работающего с server-side рендерингом.
 
 * [Анимированные переходы между страницами + React Router 4](https://hackernoon.com/animated-page-transitions-with-react-router-4-reacttransitiongroup-and-animated-1ca17bd97a1a) [**EN**] – введение в использование ReactTransitionGroup.
-
-### ReactRouter
-Документация https://reacttraining.com/react-router/web/guides/phi..
 
 # Redux
 ## Робкое знакомство с Redux
