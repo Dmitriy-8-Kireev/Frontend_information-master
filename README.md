@@ -127,6 +127,11 @@ https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
 
 📖 [Объясняем методы в массивах JavaScript: Filter vs Map vs Reduce vs Foreach](https://medium.com/@stasonmars/%D0%BE%D0%B1%D1%8A%D1%8F%D1%81%D0%BD%D1%8F%D0%B5%D0%BC-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%B2-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0%D1%85-js-filter-vs-map-vs-reduce-vs-foreach-995ef7468c4a) [**RU**]
 
+# Интересные и полезные статьи
+📖 [Чейнинг](http://shuvalov.info/2014/10/24/chaining/) [**RU**] - полезный подход.
+
+
+
 # Шпаргалка по методам для работы с массивами в JavaScript
 https://vk.com/@maxpfrontend-shpargalka-po-metodam-dlya-raboty-s-massivami-v-javascript https://doesitmutate.xyz/
 
