@@ -56,6 +56,9 @@ http://anti-code.com/devtools-cheatsheet/
 # Шпаргалка по Регулярным выражениям
 https://www.exlab.net/files/tools/sheets/regexp/regexp.pdf
 
+# Руководство по регулярным выражениям в JavaScript
+https://tuhub.ru/frontend/js-regexp
+
 # Шпаргалка по Docker
 📖 [Команды](https://gist.github.com/Dmitriy-8-Kireev/f78388bd5aeb4069b5024d8558555555) [**RU**] - Docker.
 
