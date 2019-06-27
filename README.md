@@ -53,6 +53,9 @@ https://github.com/areai51/yarn-cheatsheet
 # Шпаргалка по DevTools
 http://anti-code.com/devtools-cheatsheet/
 
+# Шпаргалка по Регулярным выражениям
+https://www.exlab.net/files/tools/sheets/regexp/regexp.pdf
+
 # Шпаргалка по Docker
 📖 [Команды](https://gist.github.com/Dmitriy-8-Kireev/f78388bd5aeb4069b5024d8558555555) [**RU**] - Docker.
 
