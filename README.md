@@ -71,6 +71,9 @@ https://dmitriy-8-kireev.github.io/Frontend_information-master/
 # Шпаргалка по  JavaScript ( The Vanilla JS Toolkit )
 https://vanillajstoolkit.com
 
+# Углубленное руководство по Java Script
+http://shamansir.github.io/JavaScript-Garden/ru/
+
 # Справочник JavaScript от Трепачёва Дмитрия
 http://code.mu/javascript/
 
