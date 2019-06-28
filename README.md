@@ -502,6 +502,9 @@ https://www.udemy.com
 https://docker.crank.ru/docs/docker-engine/install/installation-on-windows/
 # Для создания регулярных выражений
 https://regex101.com
+https://regexr.com/
+https://regexper.com/
+
 # Для создания индикаторов загрузки
 https://loading.io
 # Поиск решений
