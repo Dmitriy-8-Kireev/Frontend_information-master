@@ -510,6 +510,10 @@ https://loading.io
 # Поиск решений
 https://stackoverflow.com/
 https://ru.stackoverflow.com/
+
+# Онлайн парсер (синтаксическое дерево при работе интерпретатора)
+http://esprima.org/demo/parse.html#
+
 # Решебник для Frontend разработчика
 http://docode.ru/map
 http://video.docode.ru/
