@@ -515,6 +515,7 @@ https://ru.stackoverflow.com/
 http://esprima.org/demo/parse.html#
 
 # Решебник для Frontend разработчика
+https://www.codewars.com/
 http://docode.ru/map
 http://video.docode.ru/
 
