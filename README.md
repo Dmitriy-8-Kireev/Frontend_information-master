@@ -184,8 +184,7 @@ https://developers.google.com/web/tools/chrome-devtools/
 https://reactjs.org/
 https://www.robinwieruch.de/react-redux-tutorial/
 ### Документация RU
-https://ru.react.js.org/docs/hello-world.html
-https://learn-reactjs.ru/basics/topics
+https://ru.reactjs.org/
 
 ### Основы REACT визуально
 https://gist.github.com/Dmitriy-8-Kireev/c973d83da97af9e98ec7007972653f30
