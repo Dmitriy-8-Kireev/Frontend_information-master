@@ -526,3 +526,7 @@ http://thetypingcat.com/custom-typing-courses/javascript-existence
 
 # Набор онлайн инструментов от CATONMAT
 https://catonmat.net/
+
+# Подборка анлоязычных блогов о программировании
+ 
+
