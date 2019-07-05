@@ -521,4 +521,7 @@ http://video.docode.ru/
 # Сервис-эмулятор устройств iOS и Android
 https://www.responsinator.com/
 
+# Прокачка скорости печати
+http://thetypingcat.com/custom-typing-courses/javascript-existence
+
 
