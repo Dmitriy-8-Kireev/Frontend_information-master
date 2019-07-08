@@ -141,6 +141,8 @@ https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
 # Интересные и полезные статьи
 📖 [Чейнинг](http://shuvalov.info/2014/10/24/chaining/) [**RU**] - полезный подход.
 
+📖 [Контекст выполнения функции](https://getinstance.info/articles/javascript/execution-context/) [**RU**] - в JavaScript.
+
 📖 [Новый уровень React: React Router](https://getinstance.info/articles/react/learning-react-router/) [**RU**] - Данная статья — первая из трех частей серии о React, написанной Бредом Вестфолом (Brad Westfall).
 
 📖 [Новый уровень React: Компоненты-контейнеры](https://getinstance.info/articles/react/learning-react-container-components/) [**RU**] - Данная статья — вторая из трех частей серии о React, написанной Бредом Вестфолом (Brad Westfall).
