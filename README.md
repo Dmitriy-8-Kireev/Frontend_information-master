@@ -143,6 +143,8 @@ https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
 
 📖 [Новый уровень React: React Router](https://getinstance.info/articles/react/learning-react-router/) [**RU**] - Данная статья — первая из трех частей серии о React, написанной Бредом Вестфолом (Brad Westfall).
 
+📖 [Новый уровень React: Компоненты-контейнеры](https://getinstance.info/articles/react/learning-react-container-components/) [**RU**] - Данная статья — вторая из трех частей серии о React, написанной Бредом Вестфолом (Brad Westfall).
+
 
 
 # Шпаргалка по методам для работы с массивами в JavaScript
