@@ -354,6 +354,7 @@ https://habr.com/ru/post/336096/
 * [Redux](https://www.robinwieruch.de/redux-with-react-hooks/) [**EN**],с React Hooks?
 * [The SoundCloud Client in](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
 * [Boilerplate Project for Authentication ](https://github.com/the-road-to-react-with-firebase/react-redux-firebase-authentication) [**EN**], Firebase + React + Redux.
+* [Gatsby.js](https://www.robinwieruch.de/react-gatsby-js/) [**EN**],A powerful Static Site Generator.
 
 
 ## Node.js (Express.js ) от Robinwieruch
