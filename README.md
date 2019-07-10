@@ -356,6 +356,9 @@ https://habr.com/ru/post/336096/
 * [The SoundCloud Client in](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
 * [Boilerplate Project for Authentication ](https://github.com/the-road-to-react-with-firebase/react-redux-firebase-authentication) [**EN**], Firebase + React + Redux.
 
+## GraphQL от Robinwieruch
+
+* [Начало работы с ](https://www.robinwieruch.de/getting-started-github-graphql-api/) [**EN**], GitHub's GraphQL API. 
 
 
 ## Node.js (Express.js ) от Robinwieruch
