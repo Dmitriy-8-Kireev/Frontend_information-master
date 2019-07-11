@@ -359,6 +359,8 @@ https://habr.com/ru/post/336096/
 ## GraphQL от Robinwieruch
 
 * [Начало работы с ](https://www.robinwieruch.de/getting-started-github-graphql-api/) [**EN**], GitHub's GraphQL API. 
+* [A GraphQL](https://www.robinwieruch.de/graphql-tutorial/) [**EN**], Tutorial for Beginners. 
+
 
 
 ## Node.js (Express.js ) от Robinwieruch
