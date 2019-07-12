@@ -360,6 +360,7 @@ https://habr.com/ru/post/336096/
 
 * [Начало работы с ](https://www.robinwieruch.de/getting-started-github-graphql-api/) [**EN**], GitHub's GraphQL API. 
 * [A GraphQL](https://www.robinwieruch.de/graphql-tutorial/) [**EN**], Tutorial for Beginners. 
+* [A complete React](https://www.robinwieruch.de/react-with-graphql-tutorial/) [**EN**], with GraphQL Tutorial. 
 
 
 
