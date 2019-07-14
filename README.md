@@ -362,6 +362,7 @@ https://habr.com/ru/post/336096/
 * [A GraphQL](https://www.robinwieruch.de/graphql-tutorial/) [**EN**], Tutorial for Beginners. 
 * [A complete React](https://www.robinwieruch.de/react-with-graphql-tutorial/) [**EN**], with GraphQL Tutorial. 
 * [A Apollo Client](https://www.robinwieruch.de/graphql-apollo-client-tutorial/) [**EN**], Tutorial for Beginners. 
+* [A complete React](https://www.robinwieruch.de/react-graphql-apollo-tutorial/) [**EN**], with Apollo and GraphQL Tutorial. 
 
 
 
