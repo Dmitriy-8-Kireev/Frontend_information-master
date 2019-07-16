@@ -5,6 +5,8 @@ https://habr.com/company/mailru/blog/425821/
  
 📖 [Бесплатный справочник по HTML](https://htmlreference.io/) [**EN**] –  Он содержит все элементы и атрибуты.
 
+📖 [CSS](https://learn.javascript.ru/css-for-js) [**RU**] - для JavaScript-разработчика.
+
 📖 [CSS Reference - бесплатный визуальный справочник по CSS](https://cssreference.io/) [**EN**] – Он содержит самые популярные свойства и объясняет их иллюстрированными и анимированными примерами.
 
 📖 [Cheat Sheet CSS](https://www.exlab.net/files/tools/sheets/css/css.pdf) [**RU**] –  Шпаргалка в PDF формате.
@@ -24,8 +26,6 @@ https://habr.com/company/mailru/blog/425821/
 => интерактив по Гридам http://yui.github.io/gridbuilder/ и https://codepen.io/anthonydugois/pen/RpYBmy
 
 📖 [Code Guide](http://codeguide.co/) [**EN**] -  Стандарты для разработки гибких, долговечных  HTML и CSS.
-
-📖 [CSS](https://learn.javascript.ru/css-for-js) [**RU**] - для JavaScript-разработчика.
 
 📖 [Бесплатные темы для Bootstrap](https://bootswatch.com/) [**EN**] 
 
