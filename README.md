@@ -25,6 +25,8 @@ https://habr.com/company/mailru/blog/425821/
 
 📖 [Code Guide](http://codeguide.co/) [**EN**] -  Стандарты для разработки гибких, долговечных  HTML и CSS.
 
+📖 [CSS](https://learn.javascript.ru/css-for-js) [**RU**] - для JavaScript-разработчика.
+
 📖 [Бесплатные темы для Bootstrap](https://bootswatch.com/) [**EN**] 
 
 
