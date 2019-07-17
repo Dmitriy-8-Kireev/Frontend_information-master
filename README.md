@@ -526,6 +526,10 @@ https://regexper.com/
 
 # Для создания индикаторов загрузки
 https://loading.io
+
+# Локальные базы данных на IndexedDB
+http://densolow.com/entry/Local_databases_on_IndexedDB-3.html
+
 # Поиск решений
 https://stackoverflow.com/
 https://ru.stackoverflow.com/
