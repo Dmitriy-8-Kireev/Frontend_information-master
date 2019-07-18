@@ -276,6 +276,11 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 Приведение типов.
 * [Vanilla TypeScript example](https://github.com/Dmitriy-8-Kireev/redux-store) [**EN**] –  of a Redux Store.
 
+
+# HIGHCHARTS
+* [Документация](https://www.highcharts.com/docs/) [**EN**] –  Highcharts, Highstock and Highmaps documentation.
+* [Highcharts Tutorial](https://www.tutorialspoint.com/highcharts/index.htm) [**EN**] –  Удобный, структурированный справочник.
+
 # РАБОТА С СЕТЬЮ
 📖 [СПРАВОЧНИК](https://vds-admin.ru/http/kody-sostoyaniya-http-otveta-veb-servera-metody-http) [**RU**] -  коды ответов и методы HTTP.
 
