@@ -294,6 +294,12 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 📖 [КАК ПРАВИЛЬНО РАБОТАТЬ С REST API](https://itvdn.com/ru/blog/article/rest-api-18) [**RU**] -Маршрут отправки,Тип метода,Заголовки,Тело (или данные).
 
+📖 [XMLHttpRequest](https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest) [**RU**] -MDN WEB Docs.
+
+
+
+
+
 ## Сервис для документирования RESTful API SWAGGER
 ### Editor Swagger
 https://editor.swagger.io/
