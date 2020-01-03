@@ -351,6 +351,7 @@ https://habr.com/ru/post/336096/
 * [React](https://www.robinwieruch.de/react-lift-state/) [**EN**], работа со state.
 * [Разделение кода](https://tylermcginnis.com/react-router-code-splitting/) [**EN**], с помощью React и React Router.
 * [Как использовать](https://www.robinwieruch.de/how-to-use-prettier-vscode/) [**EN**], Prettier в VS Code.
+* [Как использовать ESLint в React](https://www.robinwieruch.de/react-eslint-webpack-babel) [**EN**], config - airbnb.
 * [Как заставить Prettier](https://www.robinwieruch.de/prettier-eslint/) [**EN**], работать с EsLint.
 * [Как настроить React](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/) [**EN**], с помощью Webpack и Babel.
 * [Как настроить расширенное приложение](https://www.robinwieruch.de/webpack-advanced-setup-tutorial/) [**EN**],Webpack.
