@@ -353,6 +353,7 @@ https://habr.com/ru/post/336096/
 * [Как заставить Prettier](https://www.robinwieruch.de/prettier-eslint/) [**EN**], работать с EsLint.
 * [Как настроить React](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/) [**EN**], с помощью Webpack и Babel.
 * [Как настроить расширенное приложение](https://www.robinwieruch.de/webpack-advanced-setup-tutorial/) [**EN**],Webpack.
+* [Как использовать CSS-модули в React?](https://www.robinwieruch.de/react-css-modules) [**EN**],поверх пользовательского приложения React + Webpack.
 * [Gatsby.js](https://www.robinwieruch.de/react-gatsby-js/) [**EN**],A powerful Static Site Generator.
 
 
