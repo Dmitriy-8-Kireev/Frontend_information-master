@@ -355,7 +355,7 @@ https://habr.com/ru/post/336096/
 * [Как настроить расширенное приложение](https://www.robinwieruch.de/webpack-advanced-setup-tutorial/) [**EN**],Webpack.
 * [Как использовать CSS-модули в React?](https://www.robinwieruch.de/react-css-modules) [**EN**],поверх пользовательского приложения React + Webpack.
 * [Gatsby.js](https://www.robinwieruch.de/react-gatsby-js/) [**EN**],A powerful Static Site Generator.
-
+* [React Context](https://www.robinwieruch.de/react-context) [**EN**],React Context - это мощная функция.
 
 
 ## Redux от Robinwieruch
