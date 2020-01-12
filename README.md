@@ -356,6 +356,7 @@ https://habr.com/ru/post/336096/
 * [Как использовать CSS-модули в React?](https://www.robinwieruch.de/react-css-modules) [**EN**],поверх пользовательского приложения React + Webpack.
 * [Gatsby.js](https://www.robinwieruch.de/react-gatsby-js/) [**EN**],A powerful Static Site Generator.
 * [React Context](https://www.robinwieruch.de/react-context) [**EN**],React Context - это мощная функция.
+* [How to useContext in React?](https://www.robinwieruch.de/react-context) [**EN**],REACT'S USECONTEXT HOOK.
 
 
 ## Redux от Robinwieruch
