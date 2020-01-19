@@ -228,6 +228,8 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 https://habr.com/company/infowatch/blog/315760/
 
+## React Hooks
+* [React Hooks useState Tutorial](https://habrahabr.ru/post/319134/) [**ENG**] Yotube.
 
 # REDUX
 
