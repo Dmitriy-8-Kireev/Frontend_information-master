@@ -232,7 +232,8 @@ https://habr.com/company/infowatch/blog/315760/
 * [React Hooks useState Tutorial](https://habrahabr.ru/post/319134/) [**ENG**] Yotube.
 
 # REDUX
-
+### Redux. Простой как грабли
+https://habr.com/ru/post/439104/
 ### Документация ENG
 https://redux.js.org/api-reference
 ### Документация RU
