@@ -229,7 +229,7 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 https://habr.com/company/infowatch/blog/315760/
 
 ## React Hooks
-* [React Hooks useState Tutorial](https://habrahabr.ru/post/319134/) [**ENG**] Yotube.
+* [React Hooks useState Tutorial](https://www.youtube.com/watch?v=9xhKH43llhU&list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM) [**ENG**] Yotube.
 
 # REDUX
 ### Redux. Простой как грабли
