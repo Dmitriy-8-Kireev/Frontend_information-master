@@ -235,7 +235,7 @@ https://habr.com/company/infowatch/blog/315760/
 * [React Hooks useLayoutEffect Tutorial](https://www.youtube.com/watch?v=ommC6fS1SZg&list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM&index=4) [**ENG**] Yotube.
 * [React Hooks useCallback Tutorial](https://www.youtube.com/watch?v=-Ls48dd-vJE&list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM&index=5) [**ENG**] Yotube.
 * [React Hooks useMemo Tutorial](https://www.youtube.com/watch?v=RkBg0gDTLU8&list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM&index=6) [**ENG**] Yotube.
-
+* [React Hooks useReducer Tutorial](https://www.youtube.com/watch?v=wcRawY6aJaw&list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM&index=7) [**ENG**] Yotube.
 
 # REDUX
 ### Redux. Простой как грабли
