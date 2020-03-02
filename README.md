@@ -580,3 +580,5 @@ https://catonmat.net/
 # Подборка анлоязычных книг по Java Script
 https://jsbooks.revolunet.com/
 
+# Дополненная реальность (AR) документация ViroReact
+https://docs.viromedia.com/docs
