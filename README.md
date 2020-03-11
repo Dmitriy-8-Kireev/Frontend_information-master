@@ -287,6 +287,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [TypeScript](https://gist.github.com/Dmitriy-8-Kireev/40d4554dfe018fa241d2024e7d8c4690) [**RU**] –  Аннотирование типов, Типы,
 Приведение типов.
 * [Vanilla TypeScript example](https://github.com/Dmitriy-8-Kireev/redux-store) [**EN**] –  of a Redux Store.
+* [react-redux-typescript-guide](https://github.com/Dmitriy-8-Kireev/react-redux-typescript-guide) [**EN**] –  TS React Redux.
 
 
 # РАБОТА С СЕТЬЮ
