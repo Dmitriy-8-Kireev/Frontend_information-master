@@ -255,6 +255,8 @@ https://gist.github.com/Dmitriy-8-Kireev/74e302c5cd4bcb6fb58ba9092c676b54
 # REDUX SAGA
 ### Документация ENG
 https://redux-saga.js.org/
+### Документация RU
+https://ru.redux-saga.js.org/
 
 # REACT ПЛАГИНЫ
 ### Правила написания по eslint-plugin-react
