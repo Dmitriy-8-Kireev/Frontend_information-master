@@ -29,6 +29,9 @@ https://habr.com/company/mailru/blog/425821/
 
 📖 [Бесплатные темы для Bootstrap](https://bootswatch.com/) [**EN**] 
 
+# Список справочников
+## https://xsltdev.ru/
+
 
 
 # Шпаргалки
