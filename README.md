@@ -207,9 +207,6 @@ https://github.com/the-road-to-learn-react/the-road-to-learn-react-russian
 https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
 https://www.robinwieruch.de/
 
-### React.js курс для начинающих
-https://maxfarseer.gitbooks.io/react-course-ru-v2/content/
-
 ### ReactDOM
 https://reactjs.org/docs/react-dom.html
 
