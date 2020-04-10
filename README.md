@@ -273,26 +273,6 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 * [ТОП-9 библиотек для стилизации React UI](https://proglib.io/p/styled-components/) [**RU**], через Styled-Components.
 
-## Ныряем в React с головой
-* [PureComponent в React](https://habrahabr.ru/company/redmadrobot/blog/318222/) [**RU**] – как и зачем применять, разбор отличий от Component.
-
-* [Основы производительности React-приложений](http://blog.csssr.ru/2016/12/07/react-perfomance/) [**RU**] – как правильно работать с `shouldComponentUpdate`.
-
-* [Основы работы с содержимым head](https://habrahabr.ru/post/311964/) [**RU**] в React-приложениях (в том числе и изоморфных) с помощью библиотеки react-helmet.
-
-* [React Lifecycle Methods – how and when to use them](https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1) [**EN**] – всё про жизненный цикл компонентов в React: подробно о том, как работает каждый метод + разбор ситуаций, в которых может понадобиться каждый хук.
-
-* [Контекст в React](https://www.youtube.com/watch?v=lxq938kqIss) [**EN**] – экспериментальный функционал, на который опираются многие популярные библиотеки (react-redux, react-intl).
-
-* [Компоненты высшего порядка](https://www.youtube.com/watch?v=LTunyI2Oyzw) [**EN**] – руководство по работе с вашими собственными компонентами высшего порядка.
-
-* [Десять мини-паттернов в React](https://hackernoon.com/10-react-mini-patterns-c1da92f068c5) [**EN**]: разбор лучших практик при работе с компонентами.
-
-* Курс [Advanced React and Redux](https://www.udemy.com/react-redux-tutorial/) [**EN**] расскажет про основы тестирования React компонентов, работу с аутентификацией на стороне клиента и сервера и компоненты высшего порядка.
-
-
-### Документация create-react-app
-https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
 
 ### Styled-components
 Документация https://www.styled-components.com/docs => примеры использования и концепция https://mxstbr.blog/2016/11/styled-components-magic-explained/ => Строчная интерполяция Встроенные выражения Многострочные строки без хаков
