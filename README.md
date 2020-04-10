@@ -90,85 +90,11 @@ http://code.mu/javascript/
 ### Cтандарты языка ECMAScript 2019 + Важные правила React and Redux
 https://gist.github.com/Dmitriy-8-Kireev/cfbd6b0227f9369c6c3cb0ab3766811f
 
-# Шпаргалка по JS, React, Redux 
-📖 [Основные принципы ООП:](https://gos-it.fandom.com/wiki/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B_%D0%9E%D0%9E%D0%9F:_%D0%B8%D0%BD%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D1%8F,_%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5,_%D0%BF%D0%BE%D0%BB%D0%B8%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B7%D0%BC) [**RU**] - инкапсуляция, наследование, полиморфизм.
-
-📖 [ООП, Наследование, Классы](https://coursehunter-club.net/t/jsexpert-ponyatnyj-javascript-advanced-part-1/847/1) [**RU**] - Сеть и обмен данными, JSON, AJAX, Асинхронный Java Script, Паттерны программирования, Архитектурные шаблоны.
-
-📖 [Классы, объекты и наследование в JavaScript](https://habr.com/ru/post/15444/) [**RU**] - хорошая статья на Хабре от Максима Каракулова.
-
-📖 [Виды Функций, Области видимости и замыкание](https://coursehunter-club.net/t/jsexpert-ponyatnyj-javascript-middle-part-1/809) [**RU**] - расширенные возможности функции, глобальные функции, Объекты, Втроенные объекты в JavaScript, Массивы, Итераторы Массивы.
-
-📖 [DOM: Поиск, Навигация, Работа с DOM](https://coursehunter-club.net/t/jsexpert-ponyatnyj-javascript-middle-part-2/810) [**RU**] - ChromeDevTools, Основы работы с событиями, Работа с THIS.
-
-📖 [JS: React](https://coursehunter-club.net/t/hexlet-js-react/480) [**RU**] - React.
-
-📖 [JS: Redux (React)](https://coursehunter-club.net/t/hexlet-js-redux-react/481) [**RU**] - Redux.
-
-
-
-# Шпаргалка по ES6 (2015) + DOM API
-📖 [Методы работы с DOM API](https://coursehunter-club.net/t/hexlet-js-dom-api/497) [**RU**] - Инструкция.
-
-📖 [ES6 по-человечески](https://habr.com/post/305900/) [**RU**] - перевод краткого (действительно краткого) руководства по ES6.
-
-📖 [Современные возможности ES-2015](https://learn.javascript.ru/es-modern) [**RU**] -Современный стандарт ES-2015 и его расширения для JavaScript.
-
-📖 [Блочные зоны видимости](http://jsraccoon.ru/es6-block-scoped-declarations) [**RU**] – `const`, `let` вместо `var`: в чём разница и где стоит быть осторожным.
-
-📖 [Стрелочные функции](http://jsraccoon.ru/es6-arrow-functions) [**RU**] – `f => f` вместо `function (f) { return f; }` и как не потерять контекст выполнения функции без использования метода `bind`.
-
-📖 [Расширение литерала объекта](http://jsraccoon.ru/es6-object-literal) [**RU**] – сокращённые записи свойств и методов в объектах.
-
-📖 [Деструктуризация объектов и массивов](http://jsraccoon.ru/es6-destructuring) [**RU**] – сокращённая запись обращения к свойствам.
-
-📖 [Модульная система](https://learn.javascript.ru/modules) [**RU**] – основы использования нативных модулей.
-
-📖 [Классы](https://learn.javascript.ru/es-class) [**RU**] – работа с прототипами и наследованием в новом стандарте.
-
-📖 [Интерполяция строк](http://jsraccoon.ru/es6-interpolation) [**RU**] или как забыть про `'hello, ' + userName + '!'`.
-
-📖 [Новые методы массивов](http://2ality.com/2014/05/es6-array-methods.html) [**EN**]: `Array.from`, `find`, `fill`, `includes` и многие другие.
-
-📖 [Обещание бургерной вечеринки](https://medium.com/web-standards/%D0%BE%D0%B1%D0%B5%D1%89%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B1%D1%83%D1%80%D0%B3%D0%B5%D1%80%D0%BD%D0%BE%D0%B9-%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B8-b0ed209809ab) [**RU**] – основы работы промисов на интересных примерах.
-
-📖 [Сборник наиболее необходимых на практике приёмов использования промисов](https://habrahabr.ru/post/311804/) [**RU**]
-
-📖 [Онлайн песочница](http://bevacqua.github.io/promisees/) [**EN**] для изучения промисов с визуализацией алгоритма их выполнения. 
-
-📖 [Проблема с промисами](http://frontiermag.ru/problem-with-promises.html) [**RU**] - Частые ошибки, и примеры их исправления.
-
-📖 [Объясняем методы в массивах JavaScript: Filter vs Map vs Reduce vs Foreach](https://medium.com/@stasonmars/%D0%BE%D0%B1%D1%8A%D1%8F%D1%81%D0%BD%D1%8F%D0%B5%D0%BC-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%B2-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0%D1%85-js-filter-vs-map-vs-reduce-vs-foreach-995ef7468c4a) [**RU**]
-
-# Интересные и полезные статьи
-📖 [Чейнинг](http://shuvalov.info/2014/10/24/chaining/) [**RU**] - полезный подход.
-
-📖 [Контекст выполнения функции](https://getinstance.info/articles/javascript/execution-context/) [**RU**] - в JavaScript.
-
-📖 [Новый уровень React: React Router](https://getinstance.info/articles/react/learning-react-router/) [**RU**] - Данная статья — первая из трех частей серии о React, написанной Бредом Вестфолом (Brad Westfall).
-
-📖 [Новый уровень React: Компоненты-контейнеры](https://getinstance.info/articles/react/learning-react-container-components/) [**RU**] - Данная статья — вторая из трех частей серии о React, написанной Бредом Вестфолом (Brad Westfall).
-
-📖 [Новый уровень React: Redux](https://getinstance.info/articles/react/learning-react-redux/) [**RU**] - Данная статья — третья из трех частей серии о React, написанной Бредом Вестфолом (Brad Westfall
-
-📖 [Несколько дельных советов по CSS](https://medium.com/webbdev/css-a6748d13aa18) [**RU**] -Это современные решения типичных проблем, коллекция советов, которая поможет вам улучшить ваши профессиональные навыки CSS.
-
-
-
-# Шпаргалка по методам для работы с массивами в JavaScript
+# Методы для работы с массивами 
 https://vk.com/@maxpfrontend-shpargalka-po-metodam-dlya-raboty-s-massivami-v-javascript https://doesitmutate.xyz/
-
-# Шпаргалка по THIS
-https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers и http://theory.phphtml.net/javascript/context/this.html и https://getinstance.info/articles/javascript/execution-context/ и https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/ и https://javascript.ru/tutorial/object/thiskeyword
 
 # Приоритет операторов в JavaScript
 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
-
-# Шпаргалка по преобразованию типов
-https://medium.com/@sergeybulavyk/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%B8%D0%BF%D0%BE%D0%B2-%D0%B2-javascript-35a15ddfc333
-
-# Список вопросов для интервью
-https://github.com/Dmitriy-8-Kireev/FAQGURU
 
 # Коллекция gitignore
 https://github.com/Dmitriy-8-Kireev/gitignore
@@ -185,13 +111,8 @@ https://webpack.js.org/plugins
 # Документация Chrome DevTools
 https://developers.google.com/web/tools/chrome-devtools/
 
-
-
 # REACT 
 
-### Документация ENG
-https://reactjs.org/
-https://www.robinwieruch.de/react-redux-tutorial/
 ### Документация RU
 https://ru.reactjs.org/
 
@@ -202,13 +123,6 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 ### Учебник по REACT  RUS
 https://github.com/the-road-to-learn-react/the-road-to-learn-react-russian
-
-### Подробное руководство по React.js в 2018 году
-https://maxpfrontend.ru/perevody/rukovodstvo-po-react-js-2018/
-https://www.robinwieruch.de/
-
-### ReactDOM
-https://reactjs.org/docs/react-dom.html
 
 ### Документация create-react-app
 https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
@@ -303,41 +217,6 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 📖 [XMLHttpRequest](https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest) [**RU**] -MDN WEB Docs.
 
 
-
-
-
-## Сервис для документирования RESTful API SWAGGER
-### Editor Swagger
-https://editor.swagger.io/
-### Лучшие практики проектирования REST API
-https://jazzteam.org/ru/technical-articles/restful-services-manual/
-### Готовим свой UI-интерфейс к Zabbix API средствами React componentи  Swagger
-https://habr.com/ru/post/344040/ реализация на гите https://github.com/Dmitriy-8-Kireev/zabbix-react
-### Декларативное программирование в web-е co Swagger
-https://habr.com/ru/post/336096/
-
-
-
-
-
-# REACT ПОЛЕЗНОЕ
-## React: Основы основ
-* [Статья из официальной документации Thinking in React](https://habrahabr.ru/post/319134/) [**RU**] про идеологию библиотеки, поможет понять, основные идеи лежащие в основе React.
-
-* [React курс для начинающих](https://www.gitbook.com/book/maxfarseer/react-course-ru/details) [**RU**] – текстовый курс по основам React на русском языке. Научит только самым базовым вещам: работе с компонентами, lifecycle хуками, формами и валидацией пропсов с помощью PropTypes.
-
-* [Все фундаментальные принципы React.js, собранные в одной статье](https://medium.com/@divermak/%D0%B2%D1%81%D0%B5-%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-react-js-%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B2-%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5-ec6a97bfd1bf) [**RU**].
-
-* [React.js for Stupid People](http://blog.andrewray.me/reactjs-for-stupid-people/) [**EN**] – спасёт вас, если вы до сих пор ничего не поняли. Всё максимально доступно для самых чайников. Есть перевод на русский язык – [React.js для глупых людей](https://habrahabr.ru/post/249107/) [**RU**].
-
-* [Абсолютный минимум](http://krasimirtsonev.com/blog/article/The-bare-minimum-to-work-with-React) [**EN**], того что надо знать, чтобы начать работать с React.
-
-* [Modern React with Redux](https://www.udemy.com/react-redux/) [**EN**] – курс по основам React. Подойдёт для всех, кто только начинает своё знакомство с экосистемой React. В ходе первой части курса вы построите приложение для поиска и просмотра видео на YouTube (только React, никаких изысков), во второй части начнёте своё путешествие в страну Redux и создадите приложение с использованием Redux и Google Maps API.
-
-* [React to the Future](http://elijahmanor.com/talks/react-to-the-future/dist/#/) [**EN**] – презентация про то, чем действительно является React и, почему появление библиотеки – это большой шаг вперёд.
-
-* [Подборка интерактивных примеров](https://edgecoders.com/learning-react-js-is-easier-than-you-think-fbd6dc4d935a) [**EN**], которые помогут разобраться в базовых идеях, лежащих в основе библиотеки.
-
 ## React от Robinwieruch
 
 * [Основы JavaScript перед изучением React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/#react-javascript) [**EN**], краткий список всех различных функций JavaScript, дополняющих ваше приложение React.
@@ -391,10 +270,6 @@ https://habr.com/ru/post/336096/
 * [Как создать REST API с помощью ](https://www.robinwieruch.de/node-express-server-rest-api/) [**EN**],  Express.js в Node.js.
 
 
-
-## Redux от Ohans Emmanuel
-* [TПонимание Redux:](https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6) [**EN**],  самое простое в мире руководство по началу работы с Redux.
-
 ## Дополнительные библиотки для React 
 * [23 лучших компонентных фреймворков React](https://techrocks.ru/2018/04/06/23-best-react-ui-component-frameworks/) [**RU**], для пользовательского интерфейса.
 
@@ -416,19 +291,6 @@ https://habr.com/ru/post/336096/
 * [Десять мини-паттернов в React](https://hackernoon.com/10-react-mini-patterns-c1da92f068c5) [**EN**]: разбор лучших практик при работе с компонентами.
 
 * Курс [Advanced React and Redux](https://www.udemy.com/react-redux-tutorial/) [**EN**] расскажет про основы тестирования React компонентов, работу с аутентификацией на стороне клиента и сервера и компоненты высшего порядка.
-
-* [Работа с AJAX запросами в React](https://daveceddia.com/ajax-requests-in-react/) [**EN**] — где и когда загружать данные.
-
-* [Работа с анимациями в React](https://www.youtube.com/watch?v=npvQX53YuCs) [**EN**] с помощью ReactCSSTransitionGroup. Если вы видели приложения на React с невероятно крутыми переходами между страницами, то посмотрите, как за пару минут можно прикрутить нечто подобное к себе в проект.
-
-
-### Элементы - самые маленькие строительные блоки приложений React
-https://reactjs.org/docs/rendering-elements.html
-
-### React Top-Level API
-https://reactjs.org/docs/react-api.html
-### ReactDOM
-https://reactjs.org/docs/react-dom.html
 
 
 ### Документация create-react-app
@@ -457,20 +319,6 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 * [Анимированные переходы между страницами + React Router 4](https://hackernoon.com/animated-page-transitions-with-react-router-4-reacttransitiongroup-and-animated-1ca17bd97a1a) [**EN**] – введение в использование ReactTransitionGroup.
 
-# Redux
-## Робкое знакомство с Redux
-* Подробное объяснение [принципов разделения презентационных компонентов и компонентов контейнеров](http://www.kanby.ru/prezentaczionnyij-komponent-i-kontejner-v-react.html) [**RU**] при работе с React и Redux.
-
-* [Подборка 8 вещей](https://www.robinwieruch.de/learn-react-before-using-redux/), которые обязательно надо изучить в React, перед знакомством с Redux. [**EN**]
-
-* [Когда я пойму, что готов к Redux?](https://medium.com/@redlan/%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D1%8F-%D0%BF%D0%BE%D0%B9%D0%BC%D1%83-%D1%87%D1%82%D0%BE-%D0%B3%D0%BE%D1%82%D0%BE%D0%B2-%D0%BA-redux-f3198cc5044), перевод статьи разработчика о том, как понять, что наступило время освоить Redux.
-
-* Лучший способ ознакомиться с Redux — посмотреть [курс от самого создателя (Даниила Абрамова) на egghead.io](https://egghead.io/series/getting-started-with-redux) [**EN**] — 30 видео уроков, в которых покажут не только, как пользоваться библиотекой, но и объяснят принцип её работы (по сути, в ходе курса вы сами напишете свой мини-Redux) + в конце расскажут про связку с React с помощью компонентов из React-redux, объяснят, как создавать компоненты-контейнеры, единственная цель которых передавать данные в другие компоненты, а также, как использовать контексты при работе с React.
-
-* Сразу после курса бегите читать [официальную документацию](http://redux.js.org/) [**EN**]. Документация небольшая по объёму, но проясняет многие детали, которые не смог покрыть курс. Так же существует вольный перевод [документации на русском языке](https://www.gitbook.com/book/rajdee/redux-in-russian) [**RU**].
-
-* Статья [Лучшие практики при работе с Redux](https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e) [**EN**] расскажет, как не совершить типичных ошибок: где и как организовать бизнес логику приложения, как правильно работать с асинхронными операциями, как создать архитектуру проекта на Redux и многое другое.
-
 
 ## Продвинутый Redux
 * [mergeStateToProps](https://habrahabr.ru/post/314582/) [**RU**] — возможности React Redux, о которых вы не знали (`mapDispatchToProps` на стероидах).
@@ -488,26 +336,6 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 * [Как правильно организовать архитектуру большого приложения на React и Redux](https://www.sitepoint.com/organize-large-react-application/) [**EN**].
 
-* [Пять советов по работе с Redux в больших приложениях](https://techblog.appnexus.com/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb) [**EN**] – продвинутое использование селекторов, техники разделения состояния, переиспользование редюсеров.
-
-## От и до: уроки по созданию полноценных приложений
-* [Создаём клон Trello](https://habrahabr.ru/post/308056/) [**RU**]. Описывается разработка сайта c авторизацией и функционалом популярного. Помимо React используется Redux, PostgreSQL, Phoenix (фреймворк для Elixir, который в свою очередь работает на Erlang VM).
-
-* Собираем с нуля изоморфное приложение – пошаговое руководство по настройке сборки приложения на React с server-side рендерингом [**RU**]:
-  * [Часть 1](https://habrahabr.ru/post/309958/)
-  * [Часть 2](https://habrahabr.ru/post/310284/)
-  * [Часть 3](https://habrahabr.ru/post/310952/)
-
-* [Создаём Реддит](https://www.sitepoint.com/reddit-clone-react-firebase/) [**EN**] с помощью React и Firebase
-
-* [Создаём Твиттер](https://scotch.io/tutorials/build-a-twitter-like-search-feed-with-react-js-and-appbase-io) [**EN**] на React с использованием appbase в качестве бэкенда.
-
-* Создаём медиа-библиотеку с помощью React, Redux и Redux-saga [**EN**]:
-  * [Часть 1](https://scotch.io/tutorials/build-a-media-library-with-react-redux-and-redux-saga-part-1)
-  * [Часть 2](https://scotch.io/tutorials/build-a-media-library-with-react-redux-and-redux-saga-part-2)
-
-
-
 ### Тестирование в React
 * [Тестирование компонентов в React](https://medium.freecodecamp.com/the-right-way-to-test-react-components-548a4736ab22) [**EN**]: как сделать это правильно и что нужно тестировать в первую очередь.
 
@@ -520,12 +348,7 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 
 ### TypeScript с React и web РУКОВОДСТВО
 http://typescript-lang.ru/docs/tutorials/React%20&%20Webpack.html и http://websketches.ru/blog/todo-na-react-i-typescript#setting-up-the-environment
-### MOBX
-https://habr.com/post/282578/
-### SEO сервис сайт рендеринг 
-https://github.com/zeit/next.js/   https://zeit.co/
-### Учебник по Реакт
-http://theory.phphtml.net/books/advanced/javascript/react/
+
 ### Конечные автоматы
 https://medium.com/devschacht/jean-paul-delimat-boost-your-react-with-state-machines-8a22885dc348
 
