@@ -270,6 +270,8 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [Как настроить Express.js](https://www.robinwieruch.de/node-js-express-tutorial/) [**EN**],  в Node.js.
 * [Как создать REST API с помощью ](https://www.robinwieruch.de/node-express-server-rest-api/) [**EN**],  Express.js в Node.js.
 
+##  PostgreSQL 
+* [Документация](https://postgrespro.ru/docs/postgresql/12/index) [**RU**],  к PostgreSQL 12.2.
 
 ## Дополнительные библиотки для React 
 * [23 лучших компонентных фреймворков React](https://techrocks.ru/2018/04/06/23-best-react-ui-component-frameworks/) [**RU**], для пользовательского интерфейса.
