@@ -138,6 +138,7 @@ https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/
 ### Тестирование в React
 
 https://habr.com/company/infowatch/blog/315760/
+* [Докумениация](https://jestjs.io/ru/) [**RU**] Jest.
 
 ## React Hooks
 * [React Hooks useState Tutorial](https://www.youtube.com/watch?v=9xhKH43llhU&list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM) [**ENG**] Yotube.
