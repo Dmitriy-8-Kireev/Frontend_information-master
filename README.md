@@ -278,7 +278,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [23 лучших компонентных фреймворков React](https://techrocks.ru/2018/04/06/23-best-react-ui-component-frameworks/) [**RU**], для пользовательского интерфейса.
 
 * [ТОП-9 библиотек для стилизации React UI](https://proglib.io/p/styled-components/) [**RU**], через Styled-Components.
-* [BIT](https://bit.dev/) [**RU**],  хороший поисковый портал с библиотеками компонентов.
+* [BIT](https://bit.dev/) [**EN**],  хороший поисковый портал с библиотеками компонентов.
 
 
 ### Styled-components
