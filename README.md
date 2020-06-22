@@ -244,6 +244,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [Gatsby.js](https://www.robinwieruch.de/react-gatsby-js/) [**EN**],A powerful Static Site Generator.
 * [React Context](https://www.robinwieruch.de/react-context) [**EN**],React Context - это мощная функция.
 * [How to useContext in React?](https://www.robinwieruch.de/react-context) [**EN**],REACT'S USECONTEXT HOOK.
+* [How to use React memo?](https://www.robinwieruch.de/react-memo) [**EN**], Оптимизация производительности рендеринга.
 
 
 ## Redux от Robinwieruch
