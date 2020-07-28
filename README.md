@@ -381,3 +381,6 @@ https://jsbooks.revolunet.com/
 
 # Дополненная реальность (AR) документация ViroReact
 https://docs.viromedia.com/docs
+
+## ECMA-262-3 in detail
+* [Chapter 1.Execution Context]http://dmitrysoshnikov.com/ecmascript/ru-chapter-1-execution-contexts/) [**RU**] Text.
