@@ -385,3 +385,4 @@ https://docs.viromedia.com/docs
 ## ECMA-262-3 in detail
 * [Chapter 1.Execution Context](http://dmitrysoshnikov.com/ecmascript/ru-chapter-1-execution-contexts/) [**RU**] 
 * [Chapter 2. Variable object](http://dmitrysoshnikov.com/ecmascript/ru-chapter-2-variable-object/) [**RU**] 
+* [Chapter 3. This](http://dmitrysoshnikov.com/ecmascript/ru-chapter-3-this/) [**RU**] 
