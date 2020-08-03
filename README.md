@@ -29,10 +29,6 @@ https://habr.com/company/mailru/blog/425821/
 
 📖 [Бесплатные темы для Bootstrap](https://bootswatch.com/) [**EN**] 
 
-# Список справочников
-## https://xsltdev.ru/
-
-
 
 # Шпаргалки
 
@@ -386,3 +382,6 @@ https://docs.viromedia.com/docs
 * [Chapter 1.Execution Context](http://dmitrysoshnikov.com/ecmascript/ru-chapter-1-execution-contexts/) [**RU**] 
 * [Chapter 2. Variable object](http://dmitrysoshnikov.com/ecmascript/ru-chapter-2-variable-object/) [**RU**] 
 * [Chapter 3. This](http://dmitrysoshnikov.com/ecmascript/ru-chapter-3-this/) [**RU**] 
+
+# Список справочников
+## https://xsltdev.ru/
