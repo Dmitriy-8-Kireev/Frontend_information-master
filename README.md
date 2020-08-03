@@ -383,5 +383,5 @@ https://docs.viromedia.com/docs
 * [Chapter 2. Variable object](http://dmitrysoshnikov.com/ecmascript/ru-chapter-2-variable-object/) [**RU**] 
 * [Chapter 3. This](http://dmitrysoshnikov.com/ecmascript/ru-chapter-3-this/) [**RU**] 
 
-# Список справочников
+# Список дополнительных справочников
 ## https://xsltdev.ru/
