@@ -30,44 +30,41 @@ https://habr.com/company/mailru/blog/425821/
 📖 [Бесплатные темы для Bootstrap](https://bootswatch.com/) [**EN**] 
 
 
-# Шпаргалки
-
-
-# Шпаргалка по Html
+# Справочник по Html
 https://horoshiy-otzyv.ru/shpargalka-html/
 
-# Шпаргалка по Css
+# Справочник по Css
 https://horoshiy-otzyv.ru/shpargalka-css/
 
-# Шпаргалка по Bash
+# Справочник по Bash
 https://github.com/Dmitriy-8-Kireev/web-development/tree/master/bash
 
-# Шпаргалка по консольным командам Git
+# Справочник по консольным командам Git
 https://github.com/Dmitriy-8-Kireev/web-development/blob/master/git/readme.md
 
-# Шпаргалка по NPM
+# Справочник по NPM
 https://github.com/Dmitriy-8-Kireev/web-development/tree/master/npm
 
-# Шпаргалка по YARN
+# Справочник по YARN
 https://github.com/areai51/yarn-cheatsheet
 
-# Шпаргалка по DevTools
+# Справочник по DevTools
 http://anti-code.com/devtools-cheatsheet/
 
-# Шпаргалка по Регулярным выражениям
+# Справочник по Регулярным выражениям
 https://www.exlab.net/files/tools/sheets/regexp/regexp.pdf
 
 # Руководство по регулярным выражениям в JavaScript
 https://tuhub.ru/frontend/js-regexp
 
-# Шпаргалка по Docker
+# Справочник по Docker
 📖 [Команды](https://gist.github.com/Dmitriy-8-Kireev/f78388bd5aeb4069b5024d8558555555) [**RU**] - Docker.
 
 📖 [Docker](https://github.com/Dmitriy-8-Kireev/DockerCheatSheet) [**RU**] -CheatSheetr.
 
 
 
-# Шпаргалка для быстрой разработки Full React/React Native/React Router/Redux/ snippets
+# Для быстрой разработки Full React/React Native/React Router/Redux/ snippets
  
 https://gist.github.com/Dmitriy-8-Kireev/c818d10a18e37638bcc81ebe30cf8401
 
