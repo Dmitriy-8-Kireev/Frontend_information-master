@@ -379,6 +379,8 @@ https://docs.viromedia.com/docs
 * [Chapter 1.Execution Context](http://dmitrysoshnikov.com/ecmascript/ru-chapter-1-execution-contexts/) [**RU**] 
 * [Chapter 2. Variable object](http://dmitrysoshnikov.com/ecmascript/ru-chapter-2-variable-object/) [**RU**] 
 * [Chapter 3. This](http://dmitrysoshnikov.com/ecmascript/ru-chapter-3-this/) [**RU**] 
+* [Chapter 4. Scope chain](http://dmitrysoshnikov.com/ecmascript/ru-chapter-4-scope-chain/) [**RU**] 
+
 
 # Список дополнительных справочников
 ## https://xsltdev.ru/
