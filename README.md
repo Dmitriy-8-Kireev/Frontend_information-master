@@ -74,7 +74,7 @@ https://gist.github.com/Dmitriy-8-Kireev/c818d10a18e37638bcc81ebe30cf8401
 
 https://dmitriy-8-kireev.github.io/Frontend_information-master/
   
-# Шпаргалка по  JavaScript ( The Vanilla JS Toolkit )
+# Справочник по  JavaScript ( The Vanilla JS Toolkit )
 https://vanillajstoolkit.com
 
 # Углубленное руководство по Java Script
