@@ -380,6 +380,7 @@ https://docs.viromedia.com/docs
 * [Chapter 2. Variable object](http://dmitrysoshnikov.com/ecmascript/ru-chapter-2-variable-object/) [**RU**] 
 * [Chapter 3. This](http://dmitrysoshnikov.com/ecmascript/ru-chapter-3-this/) [**RU**] 
 * [Chapter 4. Scope chain](http://dmitrysoshnikov.com/ecmascript/ru-chapter-4-scope-chain/) [**RU**] 
+* [Chapter 5. Functions](http://dmitrysoshnikov.com/ecmascript/ru-chapter-5-functions/) [**RU**] 
 
 
 # Список дополнительных справочников
