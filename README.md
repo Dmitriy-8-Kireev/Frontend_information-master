@@ -383,6 +383,7 @@ https://docs.viromedia.com/docs
 * [Chapter 4. Scope chain](http://dmitrysoshnikov.com/ecmascript/ru-chapter-4-scope-chain/) [**RU**] 
 * [Chapter 5. Functions](http://dmitrysoshnikov.com/ecmascript/ru-chapter-5-functions/) [**RU**] 
 * [Chapter 6. Closures](http://dmitrysoshnikov.com/ecmascript/ru-chapter-6-closures/) [**RU**] 
+* [ECMA-262-3 in detail OOP: The general theory.](http://dmitrysoshnikov.com/ecmascript/ru-chapter-7-1-oop-general-theory/) [**RU**] 
 
 
 # Список дополнительных справочников
