@@ -384,6 +384,7 @@ https://docs.viromedia.com/docs
 * [Chapter 5. Functions](http://dmitrysoshnikov.com/ecmascript/ru-chapter-5-functions/) [**RU**] 
 * [Chapter 6. Closures](http://dmitrysoshnikov.com/ecmascript/ru-chapter-6-closures/) [**RU**] 
 * [ECMA-262-3 in detail OOP: The general theory.](http://dmitrysoshnikov.com/ecmascript/ru-chapter-7-1-oop-general-theory/) [**RU**] 
+* [ECMA-262-3 in detail. Chapter 7.2. OOP: ECMAScript implementation.](http://dmitrysoshnikov.com/ecmascript/ru-chapter-7-2-oop-ecmascript-implementation/) [**RU**] 
 
 
 # Список дополнительных справочников
