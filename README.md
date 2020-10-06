@@ -241,7 +241,7 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [How to useContext in React?](https://www.robinwieruch.de/react-context) [**EN**],REACT'S USECONTEXT HOOK.
 * [How to use React memo?](https://www.robinwieruch.de/react-memo) [**EN**], Оптимизация производительности рендеринга.
 * [How to test Axios in Jest by Example](https://www.robinwieruch.de/axios-jest) [**EN**], Пример тестирования Axios через Jest.
-
+* [How to mock data in React with a fake API](https://www.robinwieruch.de/react-mock-data) [**EN**], Как имитировать данные в React с помощью поддельного API.
 
 ## Redux от Robinwieruch
 * [8 вещей, которые нужно выучить](https://www.robinwieruch.de/learn-react-before-using-redux/) [**EN**],  в React перед использованием Redux.
