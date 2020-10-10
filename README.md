@@ -253,6 +253,8 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 * [Redux](https://www.robinwieruch.de/redux-with-react-hooks/) [**EN**],с React Hooks?
 * [The SoundCloud Client in](https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/) [**EN**],  React + Redux.
 * [Boilerplate Project for Authentication ](https://github.com/the-road-to-react-with-firebase/react-redux-firebase-authentication) [**EN**], Firebase + React + Redux.
+* [Using WebSockets in Your React/Redux App ](https://www.pluralsight.com/guides/using-web-sockets-in-your-reactredux-app) [**EN**],Использование Websockets в приложении React.
+
 
 ## GraphQL от Robinwieruch
 
