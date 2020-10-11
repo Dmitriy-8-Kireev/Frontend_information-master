@@ -38,6 +38,9 @@ https://habr.com/company/mailru/blog/425821/
 Список рекомендаций по вёрстке БЭМ 
 https://dmitriy-8-kireev.github.io/Frontend_information-master/
 
+Методология БЭМ
+https://gist.github.com/neretin-trike/81664a17e089c789034b20d62d509992
+
 # Справочник по Html
 https://horoshiy-otzyv.ru/shpargalka-html/
 
