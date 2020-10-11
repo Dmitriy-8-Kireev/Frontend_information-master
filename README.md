@@ -13,8 +13,6 @@ https://habr.com/company/mailru/blog/425821/
 
 📖 [Cheat Sheet CSS](https://www.exlab.net/files/tools/sheets/css/css.pdf) [**RU**] –  Шпаргалка в PDF формате.
 
-📖 [Stylus](https://gist.github.com/neretin-trike/214fe69cf632fbd9db04d702b7f303c1) [**RU**] –  Туториал по CSS препроцессору Stylus.
-
 📖 [Генератор кода для мультимедиа-контента](http://embedresponsively.com/) [**EN**] – Достаточно вставить ссылку на мультимедиа(карты/видео) и сайт сгенерирует код  
 
 📖 [Функции PostCss](http://cssnext.io/features/#color-function) [**EN**] 
@@ -33,6 +31,12 @@ https://habr.com/company/mailru/blog/425821/
 
 📖 [Бесплатные темы для Bootstrap](https://bootswatch.com/) [**EN**] 
 
+📖 [Stylus](https://gist.github.com/neretin-trike/214fe69cf632fbd9db04d702b7f303c1) [**RU**] –  Туториал по CSS препроцессору Stylus.
+
+
+# Как работать с CSS-препроцессорами (БЭМ все в одном)
+Список рекомендаций по вёрстке БЭМ 
+https://dmitriy-8-kireev.github.io/Frontend_information-master/
 
 # Справочник по Html
 https://horoshiy-otzyv.ru/shpargalka-html/
@@ -66,17 +70,9 @@ https://tuhub.ru/frontend/js-regexp
 
 📖 [Docker](https://github.com/Dmitriy-8-Kireev/DockerCheatSheet) [**RU**] -CheatSheetr.
 
-
-
 # Для быстрой разработки Full React/React Native/React Router/Redux/ snippets
  
 https://gist.github.com/Dmitriy-8-Kireev/c818d10a18e37638bcc81ebe30cf8401
-
-# Как работать с CSS-препроцессорами (БЭМ все в одном)
-
-Список рекомендаций по вёрстке БЭМ 
-
-https://dmitriy-8-kireev.github.io/Frontend_information-master/
   
 # Справочник по  JavaScript ( The Vanilla JS Toolkit )
 https://vanillajstoolkit.com
