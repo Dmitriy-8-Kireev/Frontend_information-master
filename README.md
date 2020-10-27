@@ -216,6 +216,8 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 
 📖 [XMLHttpRequest](https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest) [**RU**] -MDN WEB Docs.
 
+📖 [CORS](https://webdevblog.ru/chto-takoe-cors/) [**RU**] - понимание, решение ошибок.
+
 
 ## React от Robinwieruch
 
