@@ -1,7 +1,7 @@
 # Набор компетенций
 https://habr.com/company/mailru/blog/425821/
 
-# Справочники по основам (Html, Css)
+# Справочники по Html, Css
  
 📖 [Бесплатный справочник по HTML](https://htmlreference.io/) [**EN**] –  Он содержит все элементы и атрибуты.
 
@@ -217,6 +217,8 @@ https://github.com/redux-utilities/redux-actions и https://github.com/reduxjs/r
 📖 [XMLHttpRequest](https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest) [**RU**] -MDN WEB Docs.
 
 📖 [CORS](https://webdevblog.ru/chto-takoe-cors/) [**RU**] - понимание, решение ошибок.
+
+📖 [CORS](https://grishaev.me/cors/) [**RU**] - Руководство по кросс-доменным запросам.
 
 
 ## React от Robinwieruch
