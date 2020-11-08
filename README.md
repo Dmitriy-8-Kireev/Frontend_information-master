@@ -59,6 +59,9 @@ https://webdevkin.ru/map
 
 https://clck.ru/DRnCo
 
+# Справочник по BitBucket
+https://www.atlassian.com/ru/software/bitbucket
+
 # Справочник по NPM
 https://github.com/Dmitriy-8-Kireev/web-development/tree/master/npm
 
